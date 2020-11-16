@@ -4,7 +4,7 @@
     <title>Estación Riquelme</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:image" content="images/bar_10.jpg" />
+    <meta property="og:image" content="{{asset('images/bar_10.jpg')}}" />
     <meta name="description" content="La estacion del carrete" />
     <meta property="og:title" content="Estacion Riquelme">
     <meta property="og:url" content="https://estacionriquelme.cl">
