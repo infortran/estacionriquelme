@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <title>Estación Riquelme</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:image" content="images/bar_10.jpg" />
+    <meta name="description" content="La estacion del carrete" />
+    <meta property="og:title" content="Estacion Riquelme">
+    <meta property="og:url" content="https://estacionriquelme.cl">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('css/open-iconic-bootstrap.min.css')}}">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -25,7 +29,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="images/navbar_logo.png" alt="" style="height:80px" class="img-fluid">
+            <img src="images/navbar_logo.png" alt="Estacion Riquelme Logo" style="height:80px" class="img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
@@ -125,8 +129,8 @@
             <div class="social d-md-flex pl-md-5 p-4 align-items-center">
                 <ul class="social-icon">
                     <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li class="ftco-animate"><a href="https://facebook.com/EstacionRiquelme"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="https://www.instagram.com/bar_estacionriquelme/"><span class="icon-instagram"></span></a></li>
                 </ul>
             </div>
         </div>
@@ -280,9 +284,9 @@
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
             <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Our Menu Pricing</h2>
+                <h2 class="mb-4">Revisa parte de nuestro menu</h2>
                 <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mt-5">Tenemos mucho mas para ofrecerte, mientras tanto, te recomendamos...</p>
             </div>
         </div>
         <div class="row">
@@ -395,36 +399,7 @@
         <!-- SnapWidget -->
         <script src="https://snapwidget.com/js/snapwidget.js"></script>
         <iframe src="https://snapwidget.com/embed/888510" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
-        <!--div class="row no-gutters">
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-1.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-3 ftco-animate">
-                <a href="gallery.html" class="gallery img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
-                    <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                        <span class="icon-search"></span>
-                    </div>
-                </a>
-            </div>
-        </div-->
+
     </div>
 </section>
 <section class="ftco-counter ftco-bg-dark img" id="section-counter" style="background-image: url(images/bar_4.jpg);" data-stellar-background-ratio="0.5">
@@ -589,56 +564,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="#" class="menu-img img mb-4" style="background-image: url(images/burger-3.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="#">Itallian Pizza</a></h3>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                <p class="price"><span>$2.90</span></p>
-                                                <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div-->
+
                                 </div>
                             </div>
-                            <!--div-- class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
-                                <div class="row">
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-1.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="#">Itallian Pizza</a></h3>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                <p class="price"><span>$2.90</span></p>
-                                                <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-2.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="#">Itallian Pizza</a></h3>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                <p class="price"><span>$2.90</span></p>
-                                                <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 text-center">
-                                        <div class="menu-wrap">
-                                            <a href="#" class="menu-img img mb-4" style="background-image: url(images/pasta-3.jpg);"></a>
-                                            <div class="text">
-                                                <h3><a href="#">Itallian Pizza</a></h3>
-                                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
-                                                <p class="price"><span>$2.90</span></p>
-                                                <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div-->
+
                         </div>
                     </div>
                 </div>
@@ -646,63 +575,7 @@
         </div>
     </div>
 </section>
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-            <div class="col-md-7 heading-section ftco-animate text-center">
-                <h2 class="mb-4">Recent from blog</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-        </div>
-        <div class="row d-flex">
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 d-flex ftco-animate">
-                <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-                    </a>
-                    <div class="text py-4 d-block">
-                        <div class="meta">
-                            <div><a href="#">Sept 10, 2018</a></div>
-                            <div><a href="#">Admin</a></div>
-                            <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                        </div>
-                        <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section class="ftco-appointment">
     <div class="overlay"></div>
     <div class="container-wrap">
@@ -711,23 +584,28 @@
                 <div id="map"></div>
             </div>
             <div class="col-md-6 appointment ftco-animate">
-                <h3 class="mb-3">Contact Us</h3>
+                <h3 class="mb-3">Contáctanos</h3>
                 <form action="#" class="appointment-form">
                     <div class="d-md-flex">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name">
+                            <input type="text" class="form-control" placeholder="Tu nombre">
                         </div>
                     </div>
                     <div class="d-me-flex">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name">
+                            <input type="text" class="form-control" placeholder="Tu e-mail">
+                        </div>
+                    </div>
+                    <div class="d-me-flex">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tu Nº de contacto">
                         </div>
                     </div>
                     <div class="form-group">
-                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+                        <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
+                        <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
                     </div>
                 </form>
             </div>
@@ -740,7 +618,7 @@
         <div class="row mb-5">
             <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">About Us</h2>
+                    <h2 class="ftco-heading-2">Sobre nosotros</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -749,52 +627,26 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-                <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Recent Blog</h2>
-                    <div class="block-21 mb-4 d-flex">
-                        <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
-                        <div class="text">
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                            <div class="meta">
-                                <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="block-21 mb-4 d-flex">
-                        <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
-                        <div class="text">
-                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
-                            <div class="meta">
-                                <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <h2 class="ftco-heading-2">Services</h2>
+                    <h2 class="ftco-heading-2">Servicios</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">Cooked</a></li>
-                        <li><a href="#" class="py-2 d-block">Deliver</a></li>
-                        <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
-                        <li><a href="#" class="py-2 d-block">Mixed</a></li>
+                        <li><a href="#" class="py-2 d-block">Cumpleaños</a></li>
+                        <li><a href="#" class="py-2 d-block">Empresas</a></li>
+                        <li><a href="#" class="py-2 d-block">Tragos</a></li>
+                        <li><a href="#" class="py-2 d-block">Comida</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <h2 class="ftco-heading-2">Alguna consulta?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Riquelme 1601, San Felipe, Valparaiso, Chile</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+56 9 6245 4265 </span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Barestacionriquelme@gmail.com</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -802,9 +654,9 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <p>
+                    Derechos Reservados &copy;<script>document.write(new Date().getFullYear());</script> | Sitio creado por <a href="https://infortran.tk" target="_blank">Infortran S.I.</a>
+                   </p>
             </div>
         </div>
     </div>
@@ -825,7 +677,7 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/jquery.timepicker.min.js"></script>
 <script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg3QcVTjtM8DO5OydNRu-MPtNby_8zdYY&callback=initMap&libraries=&v=weekly"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
