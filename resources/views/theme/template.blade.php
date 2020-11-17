@@ -411,7 +411,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coctel-4"></span></div>
-                                <strong class="number" data-number="1500">0</strong>
+                                <strong class="number" data-number="15540">0</strong>
                                 <span>Jarras servidas</span>
                             </div>
                         </div>
@@ -420,7 +420,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span class="flaticon-coctel-2"></span></div>
-                                <strong class="number" data-number="12950">0</strong>
+                                <strong class="number" data-number="82950">0</strong>
                                 <span>Tragos servidos</span>
                             </div>
                         </div>
@@ -429,7 +429,7 @@
                         <div class="block-18 text-center">
                             <div class="text">
                                 <div class="icon"><span style="margin-left: 10px" class="flaticon-persona"></span></div>
-                                <strong class="number" data-number="15420">0</strong>
+                                <strong class="number" data-number="45420">0</strong>
                                 <span>Clientes felices</span>
                             </div>
                         </div>

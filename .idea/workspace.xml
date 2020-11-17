@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e0f790-e1a3-4c6a-a62b-57a1608cf7f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/template.blade.php" />
     </list>
     <ignored path="estacionriquelme.iws" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/theme/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.030088495">
-              <caret line="396" column="32" selection-start-line="396" selection-start-column="32" selection-end-line="396" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.09026549">
+              <caret line="413" column="72" selection-start-line="413" selection-start-column="72" selection-end-line="413" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -696,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030088495">
-          <caret line="396" column="32" selection-start-line="396" selection-start-column="32" selection-end-line="396" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.09026549">
+          <caret line="413" column="72" selection-start-line="413" selection-start-column="72" selection-end-line="413" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
