@@ -29,7 +29,7 @@ class ContactController extends Controller
                 'tel' => request('tel'),
                 'message' => request('message')
             ];
-            Mail::to('freddy.perez.trabajos@gmail.com')->send(new ContactFormMail($data));
+            Mail::to(env('MAIL_TO_ADDR'))->send(new ContactFormMail($data));
 
             return json_encode(['status' => 'ok']);
         }
