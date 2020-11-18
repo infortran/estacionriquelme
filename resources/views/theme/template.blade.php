@@ -11,6 +11,7 @@
     <meta name="description" content="Bar de barrio para conversar, reír, arreglar el mundo... disfrutando de exquisitos y originales tragos, junto a maravillosas chorrillanas, pizzas, sandwich, y mucho más!" />
     <meta property="og:title" content="Estacion Riquelme">
     <meta property="og:url" content="https://estacionriquelme.cl">
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
@@ -76,6 +78,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key={{env('API_KEY_MAP')}}&callback=initMap&libraries=&v=weekly"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+<script src="{{asset('js/contact.js')}}"></script>
 
 </body>
 </html>

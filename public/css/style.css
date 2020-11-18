@@ -58,6 +58,55 @@
   color: #e7e7e7;
 }
 
+.contact-form-alerts{
+  font-size: 13px;
+  display:none;
+}
+
+.mensaje-enviado-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border:1px solid #cfcfcf;
+  border-radius: 10px;
+  padding:20px;
+  margin:10px;
+  transition:.5s ease all;
+}
+
+.mensaje-enviado-container .icon-container{
+  position:relative;
+}
+
+.mensaje-enviado-container .icon{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position:relative;
+  background: #cfcfcf;
+}
+
+.mensaje-enviado-container i{
+  position:absolute;
+  top:25%;
+  left:25%;
+  font-size: 45px;
+}
+
+.mensaje-enviado-container .text-container{
+
+}
+
+.mensaje-enviado-container .titl{
+  font-weight:lighter;
+  font-size: 35px;
+}
+
+.mensaje-enviado-container .text{
+  font-weight: lighter;
+}
+
 
 
 
