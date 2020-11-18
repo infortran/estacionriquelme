@@ -1,0 +1,36 @@
+<section class="ftco-appointment" id="contacto">
+    <div class="overlay"></div>
+    <div class="container-wrap">
+        <div class="row no-gutters d-md-flex align-items-center">
+            <div class="col-md-6 d-flex align-self-stretch">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-6 appointment ftco-animate">
+                <h3 class="mb-3">Contáctanos</h3>
+                <form action="#" class="appointment-form">
+                    <div class="d-md-flex">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tu nombre">
+                        </div>
+                    </div>
+                    <div class="d-me-flex">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tu e-mail">
+                        </div>
+                    </div>
+                    <div class="d-me-flex">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tu Nº de contacto">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

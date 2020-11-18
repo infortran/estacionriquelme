@@ -108,7 +108,7 @@ function init() {
     new google.maps.Marker({
         position: myLatLng,
         map,
-        title: "Hello World!",
+        title: "Estacion Riquelme!",
     });
     
 }
