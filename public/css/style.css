@@ -43,11 +43,14 @@
   width:60px;
   height:60px;
   border-radius: 50%;
-  background: #dc712d;
   position:relative;
 }
 
-.icono span{
+.icono.chorrillana{
+  background: #dc712d;
+}
+
+.icono.chorrillana span{
   position:absolute;
   margin:0;
   padding:0;
@@ -55,6 +58,21 @@
   top:10% !important;
   left:10% !important;
   font-size: 50px;
+  color: #e7e7e7;
+}
+
+.icono.tabla{
+  background: #dcbb31;
+}
+
+.icono.tabla span{
+  position:absolute;
+  margin:0;
+  padding:0;
+  line-height:1;
+  top:13% !important;
+  left:16% !important;
+  font-size: 40px;
   color: #e7e7e7;
 }
 
@@ -105,6 +123,16 @@
 
 .mensaje-enviado-container .text{
   font-weight: lighter;
+}
+
+
+.bar-3.lazy {
+  background-image: none;
+  background-color: #F1F1FA;
+}
+.bar-3 {
+  background-image: url("http://estacionriquelme.test/images/bar_3.jpg");
+
 }
 
 

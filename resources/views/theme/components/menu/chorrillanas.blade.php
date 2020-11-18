@@ -8,7 +8,7 @@
 <div class="row" >
     <div class="col-md-6">
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -80,7 +80,7 @@
     </div>
     <div class="col-md-6">
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="pricing-entry d-flex ftco-animate">
-            <div class="icono">
+            <div class="icono chorrillana">
                 <span class="flaticon-papas-fritas"></span>
             </div>
             <div class="desc pl-3">

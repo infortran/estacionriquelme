@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 08/11/2020 22:09
+  	Creation date: 18/11/2020 11:07
   	*/
 
 @font-face {
@@ -49,3 +49,5 @@ font-style: normal;
 .flaticon-comida-rapida:before { content: "\f110"; }
 .flaticon-tequila:before { content: "\f111"; }
 .flaticon-tequila-1:before { content: "\f112"; }
+.flaticon-pizza:before { content: "\f113"; }
+.flaticon-tablero:before { content: "\f114"; }

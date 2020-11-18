@@ -15,7 +15,7 @@
                 <a href="#tablas" class="img" style="background-image: url(images/tabla_1.jpg);"></a>
                 <div class="text p-4">
                     <h3>Tablas y canastas</h3>
-                    <p>Pa' que te de sed y matar el hambre.</p>
+                    <p>Pa' tomarse una chelita con amigos y disfrutar una buena conversa.</p>
                     <p class="price"><span><a href="#tablas">Ver Tablas y Canastas</a></span> </p>
                 </div>
             </div>

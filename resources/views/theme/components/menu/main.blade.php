@@ -13,7 +13,7 @@
         <!--chorrillanas-->
         @include('theme.components.menu.chorrillanas')
         <!--tablas-->
-
+        @include('theme.components.menu.tablas')
         <!--pizzas-->
         @include('theme.components.menu.pizzas')
         <!--guachacas-->
