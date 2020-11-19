@@ -16,15 +16,15 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/open-iconic-bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{asset('css/aos.css')}}">
-    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
-    <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
-    <link rel="stylesheet" href="{{asset('css/all.css')}}">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/aos.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/flaticon.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/icomoon.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/all.css')}}">
+    <link async rel="stylesheet" href="{{asset('css/style.css')}}">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>

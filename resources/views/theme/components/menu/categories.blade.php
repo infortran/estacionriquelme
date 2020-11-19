@@ -2,7 +2,7 @@
     <div class="row no-gutters d-flex">
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#chorrillanas" class="img smoothscroll" style="background-image: url(images/chorri_1.jpg);"></a>
+                <a href="#chorrillanas" class="img smoothscroll chorrillana-bg"></a>
                 <div class="text p-4">
                     <h3>Chorrillanas</h3>
                     <p>Vamos, adelante, sin culpas, una no es ninguna.</p>
@@ -12,7 +12,7 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#tablas" class="img" style="background-image: url(images/tabla_1.jpg);"></a>
+                <a href="#tablas" class="img tablas-bg" ></a>
                 <div class="text p-4">
                     <h3>Tablas y canastas</h3>
                     <p>Pa' tomarse una chelita con amigos y disfrutar una buena conversa.</p>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#pizzas" class="img" style="background-image: url(images/pizza_veggie.jpg);"></a>
+                <a href="#pizzas" class="img pizzas-bg"></a>
                 <div class="text p-4">
                     <h3>Pizzas</h3>
                     <p>Que tal una rica pizza, te tinca?</p>
@@ -32,7 +32,7 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#guachacas" class="img order-lg-last" style="background-image: url(images/jarra_2.jpg);"></a>
+                <a href="#guachacas" class="img order-lg-last guachacas-bg" ></a>
                 <div class="text p-4">
                     <h3>Las Guachacas</h3>
                     <p>De Estacion Riquelme. Ven y conocelas todas. </p>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#tragos" class="img order-lg-last" style="background-image: url(images/bar_5.jpg);"></a>
+                <a href="#zorrones" class="img order-lg-last zorrones-bg"></a>
                 <div class="text p-4">
                     <h3>Los Zorrones</h3>
                     <p style="height:80px">Unos ricos tragos preparados con su toque de picardía.</p>

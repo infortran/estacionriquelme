@@ -173,9 +173,23 @@
 
 }
 
+.chorrillana-bg{
+    background-image: url("/images/chorri_1.jpg")
+}
+.tablas-bg{
+    background-image: url("/images/tabla_1.jpg")
+}
 
+.pizzas-bg{
+    background-image: url("/images/pizza_veggie.jpg")
+}
 
-
+.guachacas-bg{
+    background-image: url("/images/jarra_2.jpg")
+}
+.zorrones-bg{
+    background-image: url("/images/bar_5.jpg")
+}
 
 
 
