@@ -7,7 +7,7 @@
                     <span class="subheading">Ya abrimos!</span>
                     <h1 class="mb-4">Estación Riquelme Restobar</h1>
                     <p class="mb-4 mb-md-5">DESDE 2018</p>
-                    <p><a href="#contacto" class="btn btn-primary p-3 px-xl-4 py-xl-3">Contáctanos</a> <a href="#menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">Vamos al Grano!</a></p>
+                    <p><a href="#contacto" class="btn btn-primary p-3 px-xl-4 py-xl-3 smoothscroll">Contáctanos</a> <a href="#menu" class="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3 smoothscroll">Vamos al Grano!</a></p>
                 </div>
                 <div class="col-md-6 ftco-animate">
                     <!--img src="images/bg_2.png" class="img-fluid" alt="" data-pagespeed-url-hash="4281699756" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"-->

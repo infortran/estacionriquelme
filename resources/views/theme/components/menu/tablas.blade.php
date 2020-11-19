@@ -1,4 +1,4 @@
-<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5" id="tablas">
     <div class="col-md-7 heading-section text-center ftco-animate">
         <h2 class="mb-4">Tablas</h2>
         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>

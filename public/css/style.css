@@ -92,7 +92,7 @@
 }
 
 .icono.jarra{
-  background: #81a000;
+  background: #9aa000;
 }
 
 .icono.jarra span{
@@ -104,6 +104,66 @@
   left:22% !important;
   font-size: 38px;
   color: #e7e7e7;
+}
+
+.icono.zorrones{
+    background: #5901be;
+}
+
+.icono.zorrones span{
+    position:absolute;
+    margin:0;
+    padding:0;
+    line-height:1;
+    top:18% !important;
+    left:18% !important;
+    font-size: 38px;
+    color: #e7e7e7;
+}
+
+.icono.cabezones{
+    background: #c12600;
+}
+
+.icono.cabezones span{
+    position:absolute;
+    margin:0;
+    padding:0;
+    line-height:1;
+    top:16% !important;
+    left:18% !important;
+    font-size: 38px;
+    color: #e7e7e7;
+}
+
+.icono.birras{
+    background: #527d00;
+}
+
+.icono.birras span{
+    position:absolute;
+    margin:0;
+    padding:0;
+    line-height:1;
+    top:16% !important;
+    left:18% !important;
+    font-size: 38px;
+    color: #e7e7e7;
+}
+
+.icono.falsos{
+    background: #729ee3;
+}
+
+.icono.falsos span{
+    position:absolute;
+    margin:0;
+    padding:0;
+    line-height:1;
+    top:14% !important;
+    left:11% !important;
+    font-size: 45px;
+    color: #e7e7e7;
 }
 
 .double-price{
