@@ -165,12 +165,11 @@
 }
 
 
-.bar-3.lazy {
-  background-image: none;
-  background-color: #F1F1FA;
-}
 .bar-3 {
-  background-image: url("http://estacionriquelme.test/images/bar_3.jpg");
+  background-image: url("/images/img-placeholder.png");
+}
+.bar-3.visible {
+  background-image: url("/images/bar_3.jpg");
 
 }
 

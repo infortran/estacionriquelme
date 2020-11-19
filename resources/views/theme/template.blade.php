@@ -75,10 +75,10 @@
 <!--script src="js/bootstrap-datepicker.js"></script>
 <script src="js/jquery.timepicker.min.js"></script-->
 <script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key={{env('API_KEY_MAP')}}&callback=initMap&libraries=&v=weekly" async defer></script>
-<script src="js/google-map.js" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key={{env('API_KEY_MAP')}}&libraries=&v=weekly" async defer></script>
+<script src="{{asset('js/google-map.js')}}" async defer></script>
 <script src="{{asset('js/lazyload.min.js')}}"></script>
-<script src="js/main.js"></script>
+<script src="{{asset('js/main.js')}}"></script>
 <script src="{{asset('js/contact.js')}}"></script>
 
 </body>
