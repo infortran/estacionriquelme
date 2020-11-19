@@ -21,9 +21,6 @@
     <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
     <link rel="stylesheet" href="{{asset('css/aos.css')}}">
-    <!--link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}"-->
-    <link rel="stylesheet" href="{{asset('css/bootstrap-datepicker.css')}}">
-    <link rel="stylesheet" href="{{asset('css/jquery.timepicker.css')}}">
     <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
     <link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
     <link rel="stylesheet" href="{{asset('css/all.css')}}">
