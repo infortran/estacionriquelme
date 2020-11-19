@@ -23,7 +23,7 @@
                 <div class="col-md-7 col-sm-12 text-center ftco-animate">
                     <span class="subheading">Y los Shows???</span>
                     <h1 class="mb-4">Cuidemonos entre todos</h1>
-
+                    <p class="mb-4 mb-md-5">Los shows ya volverán y disfrutaremos todos juntos.</p>
 
                 </div>
             </div>

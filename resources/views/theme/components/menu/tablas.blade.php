@@ -56,7 +56,7 @@
             </div>
             <div class="desc pl-3">
                 <div class="d-flex text align-items-center">
-                    <h3><span>Canastita Mexicana/span></h3>
+                    <h3><span>Canastita Mexicana</span></h3>
                     <span class="price">$4.900</span>
                 </div>
                 <div class="d-block">

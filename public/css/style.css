@@ -76,6 +76,45 @@
   color: #e7e7e7;
 }
 
+.icono.pizza{
+  background: #960027;
+}
+
+.icono.pizza span{
+  position:absolute;
+  margin:0;
+  padding:0;
+  line-height:1;
+  top:16% !important;
+  left:17% !important;
+  font-size: 40px;
+  color: #e7e7e7;
+}
+
+.icono.jarra{
+  background: #81a000;
+}
+
+.icono.jarra span{
+  position:absolute;
+  margin:0;
+  padding:0;
+  line-height:1;
+  top:16% !important;
+  left:22% !important;
+  font-size: 38px;
+  color: #e7e7e7;
+}
+
+.double-price{
+
+  display: flex;
+  margin-left: auto;
+  text-align: right;
+}
+
+
+
 .contact-form-alerts{
   font-size: 13px;
   display:none;
