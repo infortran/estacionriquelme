@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e0f790-e1a3-4c6a-a62b-57a1608cf7f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/main-slide.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/main-slide.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/birras.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/birras.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/cabezones.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/cabezones.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/categories.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/categories.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/falsos.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/falsos.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/guachacas.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/guachacas.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/pizzas.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/pizzas.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/tablas.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/tablas.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/components/menu/zorrones.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/components/menu/zorrones.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/template.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/template.blade.php" />
     </list>
     <ignored path="estacionriquelme.iws" />
@@ -37,8 +28,8 @@
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/theme/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6088496">
-              <caret line="74" column="100" selection-start-line="74" selection-start-column="100" selection-end-line="74" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.42123893">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -421,7 +412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382874" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
@@ -854,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6088496">
-          <caret line="74" column="100" selection-start-line="74" selection-start-column="100" selection-end-line="74" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.42123893">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding />
         </state>
       </provider>

@@ -12,6 +12,7 @@
     <meta property="og:title" content="Estacion Riquelme">
     <meta property="og:url" content="https://estacionriquelme.cl">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
