@@ -3,7 +3,7 @@
     <div class="container-wrap">
         <div class="row no-gutters d-md-flex align-items-center">
             <div class="col-md-6 d-flex align-self-stretch">
-                <div id="map"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.7129229207314!2d-70.7285667836466!3d-32.75460667462761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968816cfff14e44d%3A0x52e315e1e214e354!2sEstaci%C3%B3n%20Riquelme%20Restobar!5e0!3m2!1ses!2scl!4v1606128236961!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="col-md-6 appointment ftco-animate">
                 <h3 class="mb-3">Contáctanos</h3>

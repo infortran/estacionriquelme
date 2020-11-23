@@ -73,8 +73,6 @@
 <!--script src="js/bootstrap-datepicker.js"></script>
 <script src="js/jquery.timepicker.min.js"></script-->
 <script src="{{asset('js/scrollax.min.js')}}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key={{env('API_KEY_MAP')}}&libraries=&v=weekly"></script>
-<script src="{{asset('js/google-map.js')}}"></script>
 <script src="{{asset('js/lazyload.min.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 <script src="{{asset('js/contact.js')}}"></script>
