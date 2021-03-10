@@ -34,7 +34,7 @@
                     </div>
                     <div style="color:#fac564;flex:1" class="price">
                         <div>1.4 lts</div>
-                        <div style="font-size: 17px">$7.500</div>
+                        <div style="font-size: 17px">$9.900</div>
                     </div>
                     <hr>
                 </div>
