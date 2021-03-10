@@ -30,7 +30,7 @@
                 <div class="double-price-xs d-flex d-md-none text-center">
                     <div style="color:#fac564;flex:1" class="price">
                         <div>600cc</div>
-                        <div style="font-size: 17px">$4.000</div>
+                        <div style="font-size: 17px">$4.500</div>
                     </div>
                     <div style="color:#fac564;flex:1" class="price">
                         <div>1.4 lts</div>
