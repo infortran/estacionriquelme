@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'IndexController@index');
+Route::get('/', 'HomeController@index');
+Route::get('/admin', 'AdminController@index')->middleware('auth');
+//Route::get('/login2', 'IndexController@login2');
 
 Route::post('/contacto', 'ContactController@send');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('/admin/productos', 'ProductoController')->middleware('auth');
