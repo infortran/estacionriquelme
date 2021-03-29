@@ -106,11 +106,11 @@
   color: #e7e7e7;
 }
 
-.icono.zorrones{
+.icono.martini{
     background: #5901be;
 }
 
-.icono.zorrones span{
+.icono.martini span{
     position:absolute;
     margin:0;
     padding:0;
@@ -121,11 +121,11 @@
     color: #e7e7e7;
 }
 
-.icono.cabezones{
+.icono.tequila-1{
     background: #c12600;
 }
 
-.icono.cabezones span{
+.icono.tequila-1 span{
     position:absolute;
     margin:0;
     padding:0;
@@ -136,11 +136,11 @@
     color: #e7e7e7;
 }
 
-.icono.birras{
+.icono.cerveza{
     background: #527d00;
 }
 
-.icono.birras span{
+.icono.cerveza span{
     position:absolute;
     margin:0;
     padding:0;
@@ -151,11 +151,11 @@
     color: #e7e7e7;
 }
 
-.icono.falsos{
+.icono.tequila{
     background: #729ee3;
 }
 
-.icono.falsos span{
+.icono.tequila span{
     position:absolute;
     margin:0;
     padding:0;

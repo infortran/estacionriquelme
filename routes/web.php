@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/admin_er2021', 'HomeController@index');
-Route::get('/', 'HomeController@mantencion');
+//Route::get('/admin_er2021', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 Route::get('/admin', 'AdminController@index')->middleware('auth');
 //Route::get('/login2', 'IndexController@login2');
 
