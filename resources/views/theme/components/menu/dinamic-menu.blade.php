@@ -1,17 +1,19 @@
-<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5" id="{{--id con el nombre de la categoria para el anchor--}}">
+<div class="row justify-content-center mb-5 pb-3 mt-5 pt-5" id="{{$categoria->title}}">
     <div class="col-md-7 heading-section text-center ftco-animate">
-        <h2 class="mb-4">{{--titulo categoria dinamica--}}</h2>
+        <h2 class="mb-4">{{$categoria->title}}</h2>
         <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-        <p class="mt-5">{{--descripcion categoria dinamica--}}</p>
+        <p class="mt-5">{{$categoria->description}}</p>
     </div>
 </div>
 
-@if()
-    @foreach()
-        @include('theme.components.menu.single-menu', $producto)
+<div class="row" id="{{$categoria->title}}">
+    <div class="col-md-12">
+    @foreach($categoria->productos as $producto)
+        @if(! $producto->s_price)
+            @include('theme.components.menu.single-menu', $producto)
+        @else
+            @include('theme.components.menu.double-menu', $producto)
+        @endif
     @endforeach
-@else
-    @foreach()
-        @include('theme.components.menu.double-menu', $producto)
-    @endforeach
-@endif
+    </div>
+</div>

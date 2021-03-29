@@ -46,11 +46,11 @@
   position:relative;
 }
 
-.icono.chorrillana{
+.icono.papas-fritas{
   background: #dc712d;
 }
 
-.icono.chorrillana span{
+.icono.papas-fritas span{
   position:absolute;
   margin:0;
   padding:0;
@@ -61,11 +61,11 @@
   color: #e7e7e7;
 }
 
-.icono.tabla{
+.icono.tablero{
   background: #dcbb31;
 }
 
-.icono.tabla span{
+.icono.tablero span{
   position:absolute;
   margin:0;
   padding:0;
@@ -91,11 +91,11 @@
   color: #e7e7e7;
 }
 
-.icono.jarra{
+.icono.jarra-de-agua{
   background: #9aa000;
 }
 
-.icono.jarra span{
+.icono.jarra-de-agua span{
   position:absolute;
   margin:0;
   padding:0;
@@ -172,8 +172,14 @@
   margin-left: auto;
   text-align: right;
 }
-
-
+.double-price-xs .mobile-price{
+  text-align: right;
+}
+@media(min-width: 640px) and (max-width: 768px){
+  .double-price-xs .sec-price{
+    flex:.3 !important;
+  }
+}
 
 .contact-form-alerts{
   font-size: 13px;

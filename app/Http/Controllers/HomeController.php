@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Categoria;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -14,8 +15,10 @@ class HomeController extends Controller
 
 
     public function index(){
-        return view('theme.template');
+        return view('theme.template', ['categorias' => Categoria::All()]);
     }
 
-
+    public function mantencion(){
+        return view('admin.templates.mantencion');
+    }
 }

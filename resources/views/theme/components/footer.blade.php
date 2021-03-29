@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <p>
-                    Derechos Reservados &copy;<script>document.write(new Date().getFullYear());</script> | Sitio creado por <a href="https://infortran.tk" target="_blank">Infortran S.I.</a>
+                    Derechos Reservados &copy;<script>document.write(new Date().getFullYear());</script> | Sitio creado por <a href="https://infortran.cl" target="_blank">Infortran S.I.</a>
                 </p>
             </div>
         </div>

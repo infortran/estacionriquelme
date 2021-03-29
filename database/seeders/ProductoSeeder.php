@@ -208,109 +208,388 @@ class ProductoSeeder extends Seeder
             [
                 'title' => 'Hacienda de Quilpue',
                 'description' => 'Vino blanco, durazno, platano, guindas',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'm_price' => 4000,
+                's_price' => 7500,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'title' => 'Plaza La Dignidad',
+                'description' => 'Vino Blanco, piña, limón, pepino',
+                'm_price' => 4000,
+                's_price' => 7500,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'title' => 'Puente El Rey',
+                'description' => 'Vino blanco, manzana verde, menta',
+                'm_price' => 4000,
+                's_price' => 7500,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'title' => 'Tahai',
+                'description' => 'Vino blanco, pisco, mango, maracuyá',
+                'm_price' => 4500,
+                's_price' => 9900,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'title' => 'El Cristo',
+                'description' => 'Vino tinto, naranja, frutilla, cardamomo',
+                'm_price' => 4000,
+                's_price' => 7500,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
-                's_price' => null,
-                'm_capacity' => null,
-                's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'title' => 'Esquina Colorada',
+                'description' => 'Vino tinto, frambuesa, arándano, canela',
+                'm_price' => 4500,
+                's_price' => 8000,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
+                'title' => 'Las 3 Esquinas',
+                'description' => 'Vino blanco, manzana verde, platano',
+                'm_price' => 7990,
                 's_price' => null,
-                'm_capacity' => null,
+                'm_capacity' => '1.4 lt',
                 's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 3
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
+                'title' => 'Clásico',
+                'description' => 'Jarrita o dos frutas, de preferencia en trozos o licuadas',
+                'm_price' => 7990,
                 's_price' => null,
-                'm_capacity' => null,
+                'm_capacity' => '1.4 lt',
                 's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 1
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
+                'title' => 'Estación Riquelme',
+                'description' => 'Vino tinto, manzana roja, naranja, canela',
+                'm_price' => 7990,
                 's_price' => null,
-                'm_capacity' => null,
+                'm_capacity' => '1.4 lt',
                 's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 1
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
             [
-                'title' => '',
-                'description' => '',
-                'm_price' => 0,
+                'title' => 'Estación Riquelme 2.0',
+                'description' => 'Estación Riquelme con un shot de Jagermeister',
+                'm_price' => 8990,
                 's_price' => null,
-                'm_capacity' => null,
+                'm_capacity' => '1.4 lt',
                 's_capacity' => null,
-                'icon' => 'flaticon-jarra-de-agua',
-                'categoria_id' => 1
+                'icon' => 'jarra-de-agua',
+                'categoria_id' => 4
             ],
 
+            [
+                'title' => 'Mojito Variedades',
+                'description' => 'Maracuyá, frambuesa y clásico',
+                'm_price' => 4500,
+                's_price' => 9900,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'flaticon-martini',
+                'categoria_id' => 5
+            ],
+            [
+                'title' => 'Mojito Cerveza',
+                'description' => null,
+                'm_price' => 5000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-martini',
+                'categoria_id' => 5
+            ],
+            [
+                'title' => 'Aperol Spritz',
+                'description' => null,
+                'm_price' => 4800,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-martini',
+                'categoria_id' => 5
+            ],
+            [
+                'title' => 'Ramazzotti',
+                'description' => null,
+                'm_price' => 4800,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-martini',
+                'categoria_id' => 5
+            ],
+            [
+                'title' => 'Pisco Sour Variedades',
+                'description' => 'Jengibre, maracuyá y clásico',
+                'm_price' => 4500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-martini',
+                'categoria_id' => 5
+            ],
 
+            [
+                'title' => 'Pisco Mistral',
+                'description' => null,
+                'm_price' => 3000,
+                's_price' => 5000,
+                'm_capacity' => 'c/u',
+                's_capacity' => '2x',
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
+            [
+                'title' => 'Pisco Alto del Carmen',
+                'description' => null,
+                'm_price' => 3000,
+                's_price' => 5000,
+                'm_capacity' => 'c/u',
+                's_capacity' => '2x',
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
+            [
+                'title' => 'Pisco Mal Paso o Tres Erres',
+                'description' => null,
+                'm_price' => 2000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
 
+            [
+                'title' => 'Whisky Jack Daniels',
+                'description' => '+ 1 Bebida',
+                'm_price' => 5500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
+            [
+                'title' => 'Whisky Ballantines',
+                'description' => '+ 1 Bebida',
+                'm_price' => 3500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
+            [
+                'title' => 'Ron Pampero',
+                'description' => null,
+                'm_price' => 3000,
+                's_price' => 5000,
+                'm_capacity' => 'c/u',
+                's_capacity' => '2x',
+                'icon' => 'flaticon-tequila-1',
+                'categoria_id' => 6
+            ],
 
+            [
+                'title' => 'Royal Clásica',
+                'description' => null,
+                'm_price' => 2000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
 
-
+            [
+                'title' => 'Royal Ipa o Scotch',
+                'description' => null,
+                'm_price' => 2500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Heineken',
+                'description' => null,
+                'm_price' => 2000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Budweiser',
+                'description' => null,
+                'm_price' => 2000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Kunnstmann Torobayo',
+                'description' => null,
+                'm_price' => 2800,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Artesanal Botella',
+                'description' => null,
+                'm_price' => 2500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Artesanal Schop',
+                'description' => null,
+                'm_price' => 3000,
+                's_price' => 5000,
+                'm_capacity' => 'c/u',
+                's_capacity' => '2 x',
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Cristal o Escudo',
+                'description' => null,
+                'm_price' => 1700,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Limón Michelada Natural',
+                'description' => null,
+                'm_price' => 500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-cerveza',
+                'categoria_id' => 7
+            ],
+            [
+                'title' => 'Jugo Natural',
+                'description' => null,
+                'm_price' => 2500,
+                's_price' => 6000,
+                'm_capacity' => '600cc',
+                's_capacity' => '1.4 lt',
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Cerveza sin Alcohol',
+                'description' => null,
+                'm_price' => 2000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Cerveza sin Gluten',
+                'description' => null,
+                'm_price' => 3500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Mojito sin Alcohol',
+                'description' => null,
+                'm_price' => 4000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Mojito Cerveza sin Alcohol',
+                'description' => null,
+                'm_price' => 5000,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Agua Mineral',
+                'description' => null,
+                'm_price' => 1500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Bebida Lata',
+                'description' => null,
+                'm_price' => 1500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
+            [
+                'title' => 'Redbull',
+                'description' => null,
+                'm_price' => 2500,
+                's_price' => null,
+                'm_capacity' => null,
+                's_capacity' => null,
+                'icon' => 'flaticon-tequila',
+                'categoria_id' => 8
+            ],
         ]);
     }
 }

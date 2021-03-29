@@ -10,21 +10,8 @@
     <!--categories-->
     @include('theme.components.menu.categories')
     <div class="container">
-        <!--chorrillanas-->
-        @include('theme.components.menu.chorrillanas')
-        <!--tablas-->
-        @include('theme.components.menu.tablas')
-        <!--pizzas-->
-        @include('theme.components.menu.pizzas')
-        <!--guachacas-->
-        @include('theme.components.menu.guachacas')
-        <!--zorrones-->
-        @include('theme.components.menu.zorrones')
-        <!--cabezones-->
-        @include('theme.components.menu.cabezones')
-        <!--birras-->
-        @include('theme.components.menu.birras')
-        <!--falsos-->
-        @include('theme.components.menu.falsos')
+        @foreach($categorias as $categoria)
+            @include('theme.components.menu.dinamic-menu', $categoria)
+        @endforeach
     </div>
 </section>
