@@ -22,7 +22,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -32,7 +32,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -42,7 +42,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -52,7 +52,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -62,7 +62,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -72,7 +72,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -82,7 +82,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -92,7 +92,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -102,7 +102,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-papas-fritas',
+                'icon' => 'papas-fritas',
                 'categoria_id' => 1
             ],
             [
@@ -112,7 +112,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -122,7 +122,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -132,7 +132,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -142,7 +142,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -152,7 +152,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -162,7 +162,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -172,7 +172,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tablero',
+                'icon' => 'tablero',
                 'categoria_id' => 2
             ],
             [
@@ -182,7 +182,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-pizza',
+                'icon' => 'pizza',
                 'categoria_id' => 3
             ],
             [
@@ -192,7 +192,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-pizza',
+                'icon' => 'pizza',
                 'categoria_id' => 3
             ],
             [
@@ -202,7 +202,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-pizza',
+                'icon' => 'pizza',
                 'categoria_id' => 3
             ],
             [
@@ -313,7 +313,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 9900,
                 'm_capacity' => '600cc',
                 's_capacity' => '1.4 lt',
-                'icon' => 'flaticon-martini',
+                'icon' => 'martini',
                 'categoria_id' => 5
             ],
             [
@@ -323,7 +323,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-martini',
+                'icon' => 'martini',
                 'categoria_id' => 5
             ],
             [
@@ -333,7 +333,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-martini',
+                'icon' => 'martini',
                 'categoria_id' => 5
             ],
             [
@@ -343,7 +343,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-martini',
+                'icon' => 'martini',
                 'categoria_id' => 5
             ],
             [
@@ -353,7 +353,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-martini',
+                'icon' => 'martini',
                 'categoria_id' => 5
             ],
 
@@ -364,7 +364,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 5000,
                 'm_capacity' => 'c/u',
                 's_capacity' => '2x',
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
             [
@@ -374,7 +374,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 5000,
                 'm_capacity' => 'c/u',
                 's_capacity' => '2x',
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
             [
@@ -384,7 +384,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
 
@@ -395,7 +395,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
             [
@@ -405,7 +405,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
             [
@@ -415,7 +415,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 5000,
                 'm_capacity' => 'c/u',
                 's_capacity' => '2x',
-                'icon' => 'flaticon-tequila-1',
+                'icon' => 'tequila-1',
                 'categoria_id' => 6
             ],
 
@@ -426,7 +426,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
 
@@ -437,7 +437,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -447,7 +447,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -457,7 +457,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -467,7 +467,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -477,7 +477,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -487,7 +487,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 5000,
                 'm_capacity' => 'c/u',
                 's_capacity' => '2 x',
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -497,7 +497,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -507,7 +507,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-cerveza',
+                'icon' => 'cerveza',
                 'categoria_id' => 7
             ],
             [
@@ -517,7 +517,7 @@ class ProductoSeeder extends Seeder
                 's_price' => 6000,
                 'm_capacity' => '600cc',
                 's_capacity' => '1.4 lt',
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -527,7 +527,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -537,7 +537,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -547,7 +547,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -557,7 +557,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -567,7 +567,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -577,7 +577,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
             [
@@ -587,7 +587,7 @@ class ProductoSeeder extends Seeder
                 's_price' => null,
                 'm_capacity' => null,
                 's_capacity' => null,
-                'icon' => 'flaticon-tequila',
+                'icon' => 'tequila',
                 'categoria_id' => 8
             ],
         ]);
