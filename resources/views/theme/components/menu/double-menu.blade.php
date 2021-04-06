@@ -14,8 +14,8 @@
                 </div>
             </div>
             <div style="flex:.5" class="double-price d-none d-lg-flex">
-                <span style="color:#fac564;font-size: 17px" class="price">{{$producto->m_capacity}} ${{number_format($producto->m_price,0,'','.')}}</span>
-                <span style="color:#fac564;font-size: 17px" class="price">{{$producto->s_capacity}} $${{number_format($producto->s_price,0,'','.')}}</span>
+                <span style="color:#fac564;font-size: 17px;margin-left:auto" class="price">{{$producto->m_capacity}} <br> ${{number_format($producto->m_price,0,'','.')}}</span>
+                <span style="color:#fac564;font-size: 17px;margin-left:auto;margin-right:10px" class="price">{{$producto->s_capacity}} <br> ${{number_format($producto->s_price,0,'','.')}}</span>
             </div>
         </div>
         <div class="double-price-xs d-flex d-lg-none text-center">

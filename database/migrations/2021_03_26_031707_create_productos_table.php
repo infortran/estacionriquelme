@@ -23,6 +23,7 @@ class CreateProductosTable extends Migration
             $table->integer('s_price')->nullable()->default(null);
             $table->string('m_capacity')->nullable()->default(null);
             $table->string('s_capacity')->nullable()->default(null);
+            $table->boolean('enabled')->default(true);
             $table->timestamps();
         });
     }

@@ -1,4 +1,4 @@
-<div class="sidebar" data-color="purple" data-background-color="white" data-image="/images/sidebar-1.jpg">
+<div class="sidebar" data-color="purple" data-background-color="black" data-image="/images/sidebar-1.jpg">
 
     <div class="logo"><a href="https://cellsim.cl" class="simple-text logo-normal">
             Estación Riquelme
@@ -24,7 +24,7 @@
                     <p>Categorias</p>
                 </a>
             </li>
-            <li class="nav-item {{request()->path() === 'admin/marcas' || request()->is('admin/marcas/create') || request()->is('admin/marcas/*/edit')? 'active' : ''}}">
+            <!--li class="nav-item {{request()->path() === 'admin/marcas' || request()->is('admin/marcas/create') || request()->is('admin/marcas/*/edit')? 'active' : ''}}">
                 <a class="nav-link" href="{{url('/admin/marcas')}}">
                     <i class="material-icons">copyright</i>
                     <p>Marcas</p>
@@ -36,7 +36,7 @@
                     <i class="material-icons">web</i>
                     <p>Diseño</p>
                 </a>
-            </li>
+            </li-->
 
             <li class="nav-item {{request()->path() === 'admin/cuenta' ? 'active' : ''}}">
                 <a class="nav-link" href="{{url('/admin/cuenta')}}">

@@ -4,7 +4,7 @@
     <div class="wrapper ">
         <!--Sidebar Goes Here-->
         @include('admin.templates.sidebar')
-        <form action="{{route('productos.update', $producto->slug)}}" method="POST" enctype="multipart/form-data" class="main-panel">
+        <form action="{{route('productos.update', $producto->id)}}" method="POST" enctype="multipart/form-data" class="main-panel">
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
                 <div class="container-fluid">
@@ -120,7 +120,7 @@
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6">
+                                                    {{--<div class="col-md-6">
                                                         <div class="form-group">
                                                             <label>Marca</label>
                                                             <select name="marca_id" class="form-control selectpicker" data-style="btn btn-link" id="">
@@ -136,7 +136,7 @@
                                                                     @endforeach
                                                             </select>
                                                         </div>
-                                                    </div>
+                                                    </div>--}}
 
                                                 </div>
 

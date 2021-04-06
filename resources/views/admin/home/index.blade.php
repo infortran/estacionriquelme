@@ -32,7 +32,7 @@
             </nav>
             <!-- End Navbar -->
             <div class="content">
-
+                @include('admin.home.dashboard')
             </div>
             <!--Footer Goes Here-->
         </div>

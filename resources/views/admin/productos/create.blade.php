@@ -53,55 +53,80 @@
                                 <div class="card-body" style="margin-top: 20px">
 
                                         <div class="row">
-                                            <div class="col-md-8">
+                                            <div class="col-md-12">
                                                 <div class="row">
-                                                    <div class="col-md-10">
+                                                    <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label class="bmd-label-floating">Nombre</label>
-                                                            <input name="name" type="text" class="form-control" value="{{old('name')}}">
+                                                            <label class="bmd-label-floating">Titulo</label>
+                                                            <input name="title" type="text" class="form-control" value="{{old('title')}}" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-2">
+                                                    <!--div class="col-md-2">
                                                         <div class="form-group">
                                                             <label class="bmd-label-floating">Cantidad</label>
                                                             <input name="stock" type="text" class="form-control" value="{{old('stock')}}">
+                                                        </div>
+                                                    </div-->
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label class="bmd-label-floating">Capacidad</label>
+                                                            <input name="m_capacity" type="text" class="form-control" value="{{old('title')}}">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label class="bmd-label-floating">Capacidad Secundaria</label>
+                                                            <input name="s_capacity" type="text" class="form-control" value="{{old('title')}}">
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <div class="row">
-                                                    <div class="col-md-12">
+                                                    <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label class="bmd-label-floating">Descripcion</label>
                                                             <input name="description" type="text" class="form-control" value="{{old('description')}}">
                                                         </div>
                                                     </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label class="bmd-label-floating">Precio</label>
+                                                            <input name="m_price" type="number" class="form-control" value="{{old('m_price')}}" required>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3">
+                                                        <div class="form-group">
+                                                            <label class="bmd-label-floating">Precio Secundario</label>
+                                                            <input name="s_price" type="number" class="form-control" value="{{old('s_price')}}">
+                                                        </div>
+                                                    </div>
                                                 </div>
 
-                                                <div class="row">
+                                                <!--div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label class="bmd-label-floating">Precio</label>
-                                                            <input name="price" type="number" class="form-control" value="{{old('price')}}">
+                                                            <input name="m_price" type="number" class="form-control" value="{{old('m_price')}}">
                                                         </div>
                                                     </div>
 
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label class="bmd-label-floating">Precio Anterior</label>
-                                                            <input name="oldprice" type="number" class="form-control" value="{{old('oldprice')}}">
+                                                            <label class="bmd-label-floating">Precio Secundario</label>
+                                                            <input name="s_price" type="number" class="form-control" value="{{old('s_price')}}">
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div-->
 
-                                                <div class="row">
+                                                <!--div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group">
                                                             <label class="bmd-label-floating">URL amigable (Obligatorio)</label>
-                                                            <input name="slug" type="text" class="form-control" value="{{old('slug')}}">
+                                                            <input name="slug" type="text" class="form-control" value="{{--old('slug')--}}">
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div-->
 
                                                 <div class="row">
                                                     <div class="col-md-4">
@@ -111,12 +136,12 @@
                                                                 <option value="0" selected disabled>Selecciona una categoría</option>
 
                                                                 @foreach($categorias as $categoria)
-                                                                <option value="{{$categoria->id}}" >{{$categoria->name}}</option>
+                                                                <option value="{{$categoria->id}}" >{{$categoria->title}}</option>
                                                                 @endforeach
                                                             </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-4">
+                                                    {{--<!--div class="col-md-4">
                                                         <div class="form-group">
                                                             <label>Marca</label>
                                                             <select name="marca_id" class="form-control selectpicker" data-style="btn btn-link" id="">
@@ -126,14 +151,14 @@
                                                                 @endforeach
                                                             </select>
                                                         </div>
-                                                    </div>
+                                                    </div-->--}}
                                                 </div>
 
                                             </div>
-                                            <div class="col-md-4">
+                                            <!--div class="col-md-4">
                                                 <div class="row">
                                                     <div class="col-12">
-                                                        <img id="img-input-producto" src="{{asset('images/placeholder.jpg')}}" alt="" class="img-fluid">
+                                                        <img id="img-input-producto" src="{{--asset('images/img-placeholder.png')--}}" alt="" class="img-fluid">
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -143,7 +168,7 @@
                                                     </label>
                                                     <input name="img" type="file" id="img-file" class="d-none">
                                                 </div>
-                                            </div>
+                                            </div-->
                                         </div>
 
 

@@ -1,4 +1,4 @@
-<form action="{{route('productos.destroy', $producto->slug)}}" method="POST" class="modal fade" id="modal-eliminar-producto-{{$producto->id}}" tabindex="-1" aria-labelledby="modal-eliminar-producto" aria-hidden="true">
+<form action="{{route('productos.destroy', $producto->id)}}" method="POST" class="modal fade" id="modal-eliminar-producto-{{$producto->id}}" tabindex="-1" aria-labelledby="modal-eliminar-producto" aria-hidden="true">
     <div class="modal-dialog">
         @csrf
         @method('delete')
@@ -11,7 +11,7 @@
             </div>
             <div class="modal-body">
                 <h5>Estas seguro que quieres eliminar este producto?</h5>
-                <em><strong>{{$producto->name}}</strong></em>
+                <em><strong>{{$producto->title}}</strong></em>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>

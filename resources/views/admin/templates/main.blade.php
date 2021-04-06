@@ -33,9 +33,9 @@
 @yield('content')
 
 <!--   Core JS Files   -->
-<script src="{{asset('js/core/jquery.min.js')}}"></script>
-<script src="{{asset('js/core/popper.min.js')}}"></script>
-<script src="{{asset('js/core/bootstrap-material-design.min.js')}}"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/popper.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-material-design.min.js')}}"></script>
 <script src="{{asset('js/plugins/perfect-scrollbar.jquery.min.js')}}"></script>
 <!-- Plugin for the momentJs  -->
 <script src="{{asset('js/plugins/moment.min.js')}}"></script>
@@ -72,7 +72,7 @@
 <!--  Notifications Plugin    -->
 <script src="{{asset('js/plugins/bootstrap-notify.js')}}"></script>
 <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-<script src="{{asset('js/material-dashboard.js?v=2.1.2')}}" type="text/javascript"></script>
+<script src="{{asset('js/material-dashboard.js')}}" type="text/javascript"></script>
 <!-- Material Dashboard DEMO methods, don't include it in your project! -->
 
 <script>

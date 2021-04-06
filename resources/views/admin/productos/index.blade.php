@@ -37,15 +37,15 @@
                                     @if($productos->count() > 0)
                                     @foreach($productos as $producto)
                                         <div class="product-row">
-                                            <div class="img-container">
+                                            <!--div class="img-container">
                                                 <img src="{{asset('uploads/productos/72X72').'/'. $producto->img}}" alt="">
-                                            </div>
+                                            </div-->
                                             <div class="name">
-                                                {{$producto->name}}
+                                                {{$producto->title}}
                                             </div>
                                             <div class="btn-container">
                                                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                                                    <a href="{{route('productos.edit', $producto->slug)}}" class="btn btn-secondary">
+                                                    <a href="{{route('productos.edit', $producto->id)}}" class="btn btn-secondary">
                                                         <i class="material-icons">edit</i>
                                                         Editar
                                                     </a>
@@ -81,12 +81,16 @@
                                     </div>
                                         @endif
                                 </div>
+
                             </div>
                         </div>
-
+                        <div style="margin:0 auto">
+                            {{ $productos->links('vendor.pagination.bootstrap-4') }}
+                        </div>
                     </div>
                 </div>
             </div>
+
             <!--Footer Goes Here-->
             @include('admin.templates.footer')
         </div>
