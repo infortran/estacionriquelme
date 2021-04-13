@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->string('role');
+            $table->string('role')->default('user');
             $table->string('rut')->unique();
             $table->foreignId('current_team_id')->nullable();
             $table->text('profile_photo_path')->nullable();
