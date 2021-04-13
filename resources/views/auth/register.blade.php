@@ -224,11 +224,12 @@
             <strong class="error-message">Necesita validar el ReCaptcha</strong>
             @enderror
             <button type="submit">Ingresar</button>
-            <script src="{{ asset('/js/validarRUT.js') }}"></script>
+
         </form>
 
     </div>
 </div>
+<script src="{{ asset('/js/validarRUT.js') }}"></script>
 <script>
     let errors = document.querySelectorAll('.error-message')
     console.log(errors)
