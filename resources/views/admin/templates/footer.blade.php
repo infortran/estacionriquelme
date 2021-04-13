@@ -1,6 +1,6 @@
-<footer class="footer">
-    <div class="container-fluid">
-        <nav class="float-left">
+<footer class="footer admin-footer" style="max-width:1440px;margin:0 auto">
+    <div class="container-fluid d-flex">
+        <nav class="infortran-footer">
             <ul>
                 <li>
                     <a href="https://infortran.cl">
@@ -10,7 +10,7 @@
 
             </ul>
         </nav>
-        <div class="copyright float-right">
+        <div class="copyright">
             Bar Estación Riquelme
             &copy;
             <script>

@@ -180,7 +180,7 @@
         <h1>Registrate</h1>
     </div>
     <div class="card-body">
-        <form method="POST" action="{{ route('register') }}">
+        <form method="POST" action="{{ route('register') }}" enctype="application/x-www-form-urlencoded">
             @csrf
             <div class="input-form">
                 <input class="input" id="name" type="text" name="name" value="{{ old('name') }}" placeholder="Nombre de usuario" required autocomplete="off">

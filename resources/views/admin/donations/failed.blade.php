@@ -16,20 +16,12 @@
                                         <div class="col-md-12">
                                             <div class="icon-container">
                                                 <div class="icon"></div>
-                                                <i class="fa fa-check"></i>
+                                                <i class="fa fa-exclamation"></i>
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-center title">
                                             <h3>Has ayudado</h3>
                                             <p>Donando una piscola</p>
-                                        </div>
-                                        <div class="token-container col-md-12 d-flex">
-                                            <div class="qr">
-                                                {!! QrCode::size(60)->generate('abcdeFgSkShhJJKSj') !!}
-                                            </div>
-                                            <div class="token">
-                                                abcdeFgSkShhJJKSj
-                                            </div>
                                         </div>
                                         <div class="col-md-12 message">
                                             <div class="alert text-center">
@@ -37,17 +29,6 @@
                                                 <p style="font-weight:bolder"><strong>freddy.perez.trabajos@gmail.com</strong></p>
                                                 <p>como comprobante de tu donación</p>
                                                 <small>Guarda este comprobante para cobrar tu 2x1 en piscolas</small>
-                                            </div>
-                                            <div class="alert">
-                                                <strong>Nombre: </strong>Freddy Perez
-                                            </div>
-                                            <div class="d-flex">
-                                                <div class="alert" style="flex:1;margin-right:5px;margin-top:0 !important; margin-bottom: auto">
-                                                    <strong>Rut: </strong><br>16785738-8
-                                                </div>
-                                                <div class="alert" style="flex:1;margin-left:5px;margin-top:0 !important; margin-bottom: auto">
-                                                    <strong>Fecha: </strong><br>13/04/2021
-                                                </div>
                                             </div>
 
                                         </div>

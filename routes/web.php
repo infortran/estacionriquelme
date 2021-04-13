@@ -20,6 +20,7 @@ Route::get('/cuenta', 'HomeController@cuenta');
 Route::get('/cuenta/donar', 'DonationController@donar');
 Route::get('/configuracion', 'HomeController@configuracion');
 Route::get('/donations/success', 'DonationController@success');
+Route::get('/donations/failed', 'DonationController@failed');
 Route::post('/donations/success2', 'DonationController@success2');
 
 Route::post('/contacto', 'ContactController@send');

@@ -73,6 +73,10 @@ class DonationController extends Controller
         return view ('admin.donations.success');
     }
 
+    public function failed(){
+        return view('admin.donations.failed');
+    }
+
     public function success2(Request $request){
         try {
             //Recibe el token enviado por Flow
@@ -93,10 +97,6 @@ class DonationController extends Controller
         } catch (Exception $e) {
             echo "Error: " . $e->getCode() . " - " . $e->getMessage();
         }
-    }
-
-    public function failed(){
-
     }
 
     public function create()
