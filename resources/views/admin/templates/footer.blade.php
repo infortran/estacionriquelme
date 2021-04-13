@@ -4,14 +4,14 @@
             <ul>
                 <li>
                     <a href="https://infortran.cl">
-                        Infortran
+                        Infortran Servicios Informáticos
                     </a>
                 </li>
 
             </ul>
         </nav>
         <div class="copyright float-right">
-            CellSim Comunicaciones
+            Bar Estación Riquelme
             &copy;
             <script>
                 document.write(new Date().getFullYear());

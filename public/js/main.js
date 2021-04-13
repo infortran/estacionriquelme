@@ -35,6 +35,8 @@ AOS.init({
                 lazyBackgroundObserver.observe(lazyBackground);
             });
         }
+
+
     });
 
     // Scrollax
@@ -250,6 +252,7 @@ AOS.init({
 
 
     // navigation
+    /*
     var OnePageNav = function() {
         $(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
             e.preventDefault();
@@ -272,6 +275,17 @@ AOS.init({
         })
     };
     OnePageNav();
+    */
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 
 
     // magnific popup

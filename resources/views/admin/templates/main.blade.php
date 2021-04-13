@@ -7,8 +7,9 @@
     <link rel="icon" type="image/png" href="img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Administración Estación Riquelme
+        {{ Auth::check() && Auth::user()->role == 'admin' ? 'Administración Estación Riquelme' : 'Cuenta | Estación Riquelme' }}
     </title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
     <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />

@@ -1,10 +1,11 @@
 <div class="sidebar" data-color="purple" data-background-color="black" data-image="/images/sidebar-1.jpg">
 
-    <div class="logo"><a href="https://cellsim.cl" class="simple-text logo-normal">
+    <div class="logo"><a href="/" class="simple-text logo-normal">
             Estación Riquelme
         </a></div>
     <div class="sidebar-wrapper">
         <ul class="nav">
+            @if(Auth::user()->role == 'admin')
             <li class="nav-item  {{request()->path() === 'admin' ? 'active' : ''}}">
                 <a class="nav-link" href="{{url('/admin')}}">
                     <i class="material-icons">dashboard</i>
@@ -44,6 +45,28 @@
                     <p>Cuenta</p>
                 </a>
             </li>
+
+                <li class="nav-item {{request()->path() === 'configuracion' ? 'active' : ''}}">
+                    <a class="nav-link" href="{{url('/configuracion')}}">
+                        <i class="material-icons">settings</i>
+                        <p>Configuracion</p>
+                    </a>
+                </li>
+
+                @else
+                <li class="nav-item {{request()->path() === 'cuenta' ? 'active' : ''}}">
+                    <a class="nav-link" href="{{url('/cuenta')}}">
+                        <i class="material-icons">person</i>
+                        <p>Cuenta</p>
+                    </a>
+                </li>
+                <li class="nav-item {{request()->path() === 'configuracion' ? 'active' : ''}}">
+                    <a class="nav-link" href="{{url('/configuracion')}}">
+                        <i class="material-icons">settings</i>
+                        <p>Configuracion</p>
+                    </a>
+                </li>
+                @endif
 
         </ul>
 

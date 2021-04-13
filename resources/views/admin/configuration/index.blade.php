@@ -33,10 +33,11 @@
             <!-- End Navbar -->
             <div class="content">
                 @if(Auth::user()->role == 'admin')
-                @include('admin.home.admin.dashboard')
-                    @else
-                @include('admin.home.user.dashboard')
+                    @include('admin.configuration.admin.index')
+                @else
+                    @include('admin.configuration.user.index')
                 @endif
+
             </div>
             <!--Footer Goes Here-->
         </div>

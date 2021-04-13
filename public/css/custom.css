@@ -1,3 +1,296 @@
+.popup-donacion .title .main{
+    font-size:5.5rem;
+    font-family:serif;
+    font-weight:bold;
+    color:#ffffff;
+    text-shadow:2px 2px 3px rgba(0,0,0,.7);
+    margin-top: 2rem;
+    margin-left: 27rem;
+    text-align: start;
+}
+.popup-donacion .title .sub{
+    font-size:2.4rem;
+    font-weight: bolder;
+    text-shadow:2px 2px 3px rgba(0,0,0,.7);
+    color:#ffffff;
+    margin-top: 6.5rem;
+    margin-left: 27rem;
+    text-align: start;
+}
+
+.text-donar{
+    font-size:1rem;
+}
+
+.popup-donacion{
+    background-image: url('../images/piscolabanner.jpg');
+}
+
+
+@media(max-width:424px){
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-425.jpg');
+    }
+    .popup-donacion .title .sub{
+        margin-left: 9rem;
+        font-size:2rem;
+    }
+    .popup-donacion .title .main{
+        margin-left: 9rem;
+        font-size:3.2rem;
+        margin-top: 1rem;
+    }
+    .text-donar{
+        font-size:1rem;
+    }
+}
+
+@media(max-width: 670px){
+    .text-donar{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 500px){
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-425.jpg');
+    }
+    .popup-donacion .title .sub {
+        margin-left: 12rem;
+        font-size:2rem;
+    }
+
+    .popup-donacion .title .main {
+        margin-left: 12rem;
+        font-size:3.2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:629px) and (min-width: 501px){
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-600.jpg');
+    }
+    .popup-donacion .title .sub{
+        margin-left: 12.7rem;
+        font-size:2rem;
+    }
+    .popup-donacion .title .main{
+        margin-left: 12.7rem;
+        font-size:3.2rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:900px) and (min-width: 630px){
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-768.jpg');
+    }
+    .popup-donacion .title .sub{
+        margin-left: 15.7rem;
+        font-size:2.2rem;
+    }
+    .popup-donacion .title .main{
+        margin-left: 15.7rem;
+        font-size:4.2rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width:900px) and (min-width: 860px) {
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-768.jpg');
+    }
+    .popup-donacion .title .sub {
+        margin-left: 17.7rem;
+    }
+
+    .popup-donacion .title .main {
+        margin-left: 17.7rem;
+    }
+}
+
+@media (max-width:1199px) and (min-width: 901px){
+    .popup-donacion{
+        background-image: url('../images/piscolabanner-768.jpg');
+    }
+    .popup-donacion .title .sub {
+        margin-left: 17.7rem;
+        font-size:2.5rem;
+    }
+
+    .popup-donacion .title .main {
+        margin-left: 17.7rem;
+        font-size:4.7rem;
+    }
+}
+@media (max-width:1500px) and (min-width: 1400px){
+    .popup-donacion .title .sub {
+        margin-left: 34rem;
+    }
+
+    .popup-donacion .title .main {
+        margin-left: 34rem;
+        font-size:4.7rem;
+    }
+}
+
+@media (max-width:1500px) and (min-width: 1200px){
+    .popup-donacion .title .sub {
+        margin-left: 32rem;
+    }
+
+    .popup-donacion .title .main {
+        margin-left: 32rem;
+
+    }
+}
+
+.title-deal-card{
+    font-size: 1rem;
+    margin:0 auto;
+}
+
+.token-deal-card{
+    width: 50%;
+    background: #f0f3c8;
+    padding: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.deal-card .status{
+    display: inline-block;
+    padding: 0 5px;
+    background: #46901a;
+    color: #fff;
+    line-height: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.deal-card{
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+.deal-card h3{
+    margin:0 auto;
+}
+
+.price-deal-card{
+    font-weight: lighter;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
+.price-deal-card.desktop{
+    display: none;
+}
+
+.deal-card .footer{
+    justify-content:center;
+    margin-left:auto;
+}
+
+.payment-success .icon-container{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    position:relative;
+}
+
+.payment-success .icon{
+
+    background:linear-gradient(to left, #00ae00, #006a00);
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+
+
+}
+.payment-success .icon-container i{
+    position:absolute;
+    top: 25%;
+    left:27%;
+    font-size:3rem;
+    color:white;
+}
+.payment-success .token-container{
+    align-items: center;
+    justify-content: center;
+}
+.payment-success .token{
+    font-family:sans-serif;
+    font-weight: bold;
+    background:#0a6ebd;
+    color:white;
+    text-shadow:2px 2px rgba(0,0,0,.6);
+    padding:10px 20px;
+    border-radius:10px;
+    margin-left:30px;
+}
+.payment-success .message{
+    font-size: 1rem;
+}
+
+.payment-success .message p{
+    line-height: 5px !important;
+}
+
+.payment-success .message .alert{
+    border-radius:10px;
+    background: #353535;
+    color:white;
+    margin-top:20px
+}
+@media (max-width: 425px){
+    .payment-success{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .payment-success .token{
+        margin-top: 20px;
+    }
+    .payment-success .icon-container{
+        width:50px;
+        height:50px;
+    }
+    .payment-success .icon-container i{
+        top:25%;
+        left:25%;
+        font-size: 1.5rem;
+    }
+    .payment-success .title h3{
+        font-size: 1.2rem !important;
+        line-height:10px
+    }
+    .payment-success .title p{
+        font-size: 0.9rem !important;
+    }
+    .payment-success .token-container{
+
+    }
+    .payment-success .message{
+
+    }
+    .payment-success .message p{
+        line-height: 1.2rem !important;
+    }
+    .deal-card{
+        flex-direction: column !important;
+    }
+    .deal-card img{
+
+    }
+    .token-deal-card{
+        width: 80%;
+    }
+
+    .deal-card .footer{
+        margin-left: 0;
+    }
+}
+
 .card-list{
     background: #fff4d2;
 }

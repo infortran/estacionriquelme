@@ -69,7 +69,7 @@
 @include('theme.components.footer')
 
 
-<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/app.js')}}"></script>
 <script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
 <script src="{{asset('js/popper.min.js')}}"></script>
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
@@ -86,6 +86,7 @@
 <script src="{{asset('js/lazyload.min.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 <script src="{{asset('js/contact.js')}}"></script>
+<script src="{{asset('js/custom.js')}}"></script>
 
 </body>
 </html>

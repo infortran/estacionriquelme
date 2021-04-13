@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Login</title>
+    <title>Iniciar Sesión | Estación Riquelme</title>
 
     <style>
         body{
@@ -175,7 +175,7 @@
     <img src="{{ asset('images/navbar_logo.png') }}" alt="">
     <div class="card">
         <div class="card-header">
-            <h1>Login</h1>
+            <h1>Iniciar Sesión</h1>
             <p>Ingresa con tu cuenta</p>
         </div>
         <div class="card-body">
@@ -201,6 +201,9 @@
                     </label>
                 </div>
                 <button type="submit">Ingresar</button>
+                <a href="/register">
+                    {{ __('Usuario nuevo? Registrate!') }}
+                </a>
                 @if (Route::has('password.request'))
                     <a href="{{ route('password.request') }}">
                         {{ __('Olvido su contraseña?') }}
@@ -212,12 +215,12 @@
     </div>
     <script>
         let errors = document.querySelectorAll('.error-message')
-
+        console.log(errors)
         setTimeout(function(){
             errors.forEach(function(error){
                 error.style.display = "none"
             })
-        }, 3000);
+        }, 6000);
     </script>
 </body>
 </html>
