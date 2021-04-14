@@ -16,12 +16,13 @@
                                         <div class="col-md-12">
                                             <div class="icon-container">
                                                 <div class="icon"></div>
-                                                <i class="fa fa-check"></i>
+                                                <i class="fa fa-hearth"></i>
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-center title">
-                                            <h3>Has ayudado</h3>
-                                            <p>Donando una piscola</p>
+                                            <h3>Eres lo mas lindo!</h3>
+                                            <p>de este mundo <3</p>
+                                            <p>Gracias de parte de todos los trabajadores de Estacion Riquelme</p>
                                         </div>
                                         <div class="token-container col-md-12 d-flex">
                                             <div class="qr">

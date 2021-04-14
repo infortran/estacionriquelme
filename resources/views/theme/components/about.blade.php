@@ -4,7 +4,7 @@
         <div class="heading-section ftco-animate ">
             <h2 class="mb-4">Nuestra nueva normalidad</h2>
         </div>
-        <div class="text-center">
+        <div class="text-start">
             <p>cuando llegues al bar te recibirá nuestro personal,
                 ellos te darán todas las indicaciones para poder permanecer de manera segura
                 en nuestro querido Bar.</p>

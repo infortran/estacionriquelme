@@ -8,12 +8,16 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
+                @if(request()->path() === 'carta')
+                    <li class="nav-item active"><a href="/" class="nav-link">Hogar</a></li>
+                    @else
                 <li class="nav-item active"><a href="/" class="nav-link">Hogar</a></li>
                 <li class="nav-item"><a href="#normalidad" class="nav-link">Nueva Normalidad</a></li>
                 <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
-                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="{{url('/carta')}}" class="nav-link">Carta</a></li>
                 <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
                 <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                    @endif
             </ul>
         </div>
     </div>

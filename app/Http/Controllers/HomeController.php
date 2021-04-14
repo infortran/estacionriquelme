@@ -16,7 +16,7 @@ class HomeController extends Controller
 
 
     public function index(){
-        return view('theme.template', ['categorias' => Categoria::All()]);
+        return view('theme.templates.main', ['categorias' => Categoria::All()]);
     }
 
     public function mantencion(){
@@ -38,5 +38,9 @@ class HomeController extends Controller
             return view('admin.configuration.index');
         }
         return redirect('/login');
+    }
+
+    public function carta(){
+        return view('carta.index',  ['categorias' => Categoria::All()]);
     }
 }

@@ -12,11 +12,11 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#tablas" class="img tablas-bg smoothscroll" ></a>
+                <a href="#tablas-y-canastas" class="img tablas-bg smoothscroll" ></a>
                 <div class="text p-4">
                     <h3>Tablas y canastas</h3>
                     <p>Pa' tomarse una chelita con amigos y disfrutar una buena conversa.</p>
-                    <p class="price"><span><a href="#tablas" class="smoothscroll">Ver Tablas y Canastas</a></span> </p>
+                    <p class="price"><span><a href="#tablas-y-canastas" class="smoothscroll">Ver Tablas y Canastas</a></span> </p>
                 </div>
             </div>
         </div>
@@ -32,31 +32,31 @@
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#guachacas" class="img order-lg-last guachacas-bg smoothscroll" ></a>
+                <a href="#las-guachacas" class="img order-lg-last guachacas-bg smoothscroll" ></a>
                 <div class="text p-4">
                     <h3>Las Guachacas</h3>
                     <p>De Estacion Riquelme. Ven y conocelas todas. </p>
-                    <p class="price"><span><a href="#guachacas" class="smoothscroll">Ver Jarras</a></span></p>
+                    <p class="price"><span><a href="#las-guachacas" class="smoothscroll">Ver Jarras</a></span></p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#zorrones" class="img order-lg-last zorrones-bg smoothscroll"></a>
+                <a href="#los-zorrones" class="img order-lg-last zorrones-bg smoothscroll"></a>
                 <div class="text p-4">
                     <h3>Los Zorrones</h3>
                     <p style="height:80px">Unos ricos tragos preparados con su toque de picardía.</p>
-                    <p class="price"><span><a href="#zorrones" class="smoothscroll">Ver Tragos</a></span> </p>
+                    <p class="price"><span><a href="#los-zorrones" class="smoothscroll">Ver Tragos</a></span> </p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 d-flex ftco-animate">
             <div class="services-wrap d-flex">
-                <a href="#cabezones" class="img order-lg-last smoothscroll" style="background-image: url(images/whisky_jw.jpeg);"></a>
+                <a href="#los-cabezones" class="img order-lg-last smoothscroll" style="background-image: url(images/whisky_jw.jpeg);"></a>
                 <div class="text p-4">
                     <h3>Los Cabezones</h3>
                     <p style="height:50px">Con todo si no pa que.</p>
-                    <p class="price"><span><a href="#cabezones" class="smoothscroll">Ver Cabezones</a></span> </p>
+                    <p class="price"><span><a href="#los-cabezones" class="smoothscroll">Ver Cabezones</a></span> </p>
                 </div>
             </div>
         </div>
