@@ -8,9 +8,9 @@
         </div>
         <div class="col-md-12 alert mt-4 d-flex align-items-center" style="justify-content: space-around; flex-wrap: wrap">
             <div class="text text-center text-donar">El 100% de los fondos será donado al sueldo de nuestros colaboradores.</div>
-            <a href="{{url('/cuenta/donar')}}" >
+            <!--a href="{{url('/cuenta/donar')}}" >
                 <img src='https://www.flow.cl/img/botones/btn-donar-celeste.png'>
-            </a>
+            </a-->
         </div>
         <div class="col-md-12 card deal-card py-4 d-flex" style="flex-direction: row; width: 100%">
             <div class="text-center">

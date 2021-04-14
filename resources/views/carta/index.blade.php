@@ -1,7 +1,7 @@
 @extends('theme.templates.index')
 
 @section('content')
-        
+
         <!-- nav -->
 @include('theme.components.nav')
 
