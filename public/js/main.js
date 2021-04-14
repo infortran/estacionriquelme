@@ -281,7 +281,7 @@ AOS.init({
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
 
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            document.querySelector(anchor.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
         });
