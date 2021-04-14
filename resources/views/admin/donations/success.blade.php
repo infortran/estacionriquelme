@@ -9,20 +9,17 @@
                         <div class="col-md-12 text-center mt-2">
                             <img style="width:150px;border-radius:50%;" src="{{asset('/images/logo_optimized_bg_black.png')}}" alt="Estacion Riquelme">
                         </div>
-                        <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-4  payment-success">
+                        <div class="col-12 col-md-8 offset-md-2 col-lg-4 offset-lg-4 payment success">
                             <div class="card" >
                                 <div class="card-body" style="margin-top: 20px">
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="icon-container">
-                                                <div class="icon"></div>
-                                                <i class="fa fa-hearth"></i>
-                                            </div>
+                                        <div class="col-md-12 text-center">
+                                            <img src="{{ asset('images/corazon.png') }}" alt="">
                                         </div>
                                         <div class="col-md-12 text-center title">
                                             <h3>Eres lo mas lindo!</h3>
-                                            <p>de este mundo <3</p>
-                                            <p>Gracias de parte de todos los trabajadores de Estacion Riquelme</p>
+                                            <p>de este mundo</p>
+                                            <p>Gracias de parte de todos los trabajadores de<br>Estacion Riquelme</p>
                                         </div>
                                         <div class="token-container col-md-12 d-flex">
                                             <div class="qr">

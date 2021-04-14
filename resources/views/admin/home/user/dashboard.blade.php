@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 text-center popup-donacion" style="height: 300px ; background-repeat: no-repeat; background-size: cover">
-            <div class="title">
-                <div class="sub">Dona una</div>
-                <div class="main">Piscola</div>
+            <div class="pop_title">
+                <div class="sub_title">Dona una</div>
+                <div class="main_title">Piscola</div>
             </div>
         </div>
         <div class="col-md-12 alert mt-4 d-flex align-items-center" style="justify-content: space-around; flex-wrap: wrap">

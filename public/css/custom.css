@@ -1,4 +1,4 @@
-.popup-donacion .title .main{
+.popup-donacion .pop_title .main_title{
     font-size:5.5rem;
     font-family:serif;
     font-weight:bold;
@@ -8,7 +8,7 @@
     margin-left: 27rem;
     text-align: start;
 }
-.popup-donacion .title .sub{
+.popup-donacion .pop_title .sub_title{
     font-size:2.4rem;
     font-weight: bolder;
     text-shadow:2px 2px 3px rgba(0,0,0,.7);
@@ -31,11 +31,11 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-425.jpg');
     }
-    .popup-donacion .title .sub{
+    .popup-donacion .pop_title .sub_title{
         margin-left: 9rem;
         font-size:2rem;
     }
-    .popup-donacion .title .main{
+    .popup-donacion .pop_title .main_title{
         margin-left: 9rem;
         font-size:3.2rem;
         margin-top: 1rem;
@@ -55,12 +55,12 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-425.jpg');
     }
-    .popup-donacion .title .sub {
+    .popup-donacion .pop_title .sub_title {
         margin-left: 12rem;
         font-size:2rem;
     }
 
-    .popup-donacion .title .main {
+    .popup-donacion .pop_title .main_title {
         margin-left: 12rem;
         font-size:3.2rem;
         margin-top: 1rem;
@@ -71,11 +71,11 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-600.jpg');
     }
-    .popup-donacion .title .sub{
+    .popup-donacion .pop_title .sub_title{
         margin-left: 12.7rem;
         font-size:2rem;
     }
-    .popup-donacion .title .main{
+    .popup-donacion .pop_title .main_title{
         margin-left: 12.7rem;
         font-size:3.2rem;
         margin-top: 1rem;
@@ -86,11 +86,11 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-768.jpg');
     }
-    .popup-donacion .title .sub{
+    .popup-donacion .pop_title .sub_title{
         margin-left: 15.7rem;
         font-size:2.2rem;
     }
-    .popup-donacion .title .main{
+    .popup-donacion .pop_title .main_title{
         margin-left: 15.7rem;
         font-size:4.2rem;
         margin-top: 1.5rem;
@@ -101,11 +101,11 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-768.jpg');
     }
-    .popup-donacion .title .sub {
+    .popup-donacion .pop_title .sub_title {
         margin-left: 17.7rem;
     }
 
-    .popup-donacion .title .main {
+    .popup-donacion .pop_title .main_title {
         margin-left: 17.7rem;
     }
 }
@@ -114,35 +114,34 @@
     .popup-donacion{
         background-image: url('../images/piscolabanner-768.jpg');
     }
-    .popup-donacion .title .sub {
+    .popup-donacion .pop_title .sub_title {
         margin-left: 17.7rem;
         font-size:2.5rem;
     }
 
-    .popup-donacion .title .main {
+    .popup-donacion .pop_title .main_title {
         margin-left: 17.7rem;
         font-size:4.7rem;
     }
 }
 @media (max-width:1500px) and (min-width: 1400px){
-    .popup-donacion .title .sub {
+    .popup-donacion .pop_title .sub_title {
         margin-left: 34rem;
     }
 
-    .popup-donacion .title .main {
+    .popup-donacion .pop_title .main_title {
         margin-left: 34rem;
         font-size:4.7rem;
     }
 }
 
 @media (max-width:1500px) and (min-width: 1200px){
-    .popup-donacion .title .sub {
+    .popup-donacion .pop_title .sub_title {
         margin-left: 32rem;
     }
 
-    .popup-donacion .title .main {
+    .popup-donacion .pop_title .main_title {
         margin-left: 32rem;
-
     }
 }
 
@@ -192,38 +191,51 @@
     margin-left:auto;
 }
 
-.payment-success .alert strong{
+.payment .alert strong{
     font-weight: bold;
 }
 
-.payment-success .icon-container{
+.payment .icon-container{
     width:100px;
     height:100px;
     margin:0 auto;
     position:relative;
 }
 
-.payment-success .icon{
-
+.payment .icon{
     background:linear-gradient(to left, #00ae00, #006a00);
     width:100%;
     height:100%;
     border-radius: 50%;
-
-
 }
-.payment-success .icon-container i{
+
+.payment.success img{
+    width: 150px;
+    height: 150px;
+}
+
+.payment.failed .icon{
+    background:linear-gradient(to left, #ae1213, #6a1613);
+}
+
+.payment .icon-container i{
     position:absolute;
     top: 25%;
     left:27%;
     font-size:3rem;
     color:white;
 }
-.payment-success .token-container{
+
+.payment.failed .icon-container i{
+    top: 30%;
+    left:40%;
+}
+
+.payment .token-container{
     align-items: center;
     justify-content: center;
 }
-.payment-success .token{
+.payment .token{
     font-family:sans-serif;
     font-weight: bold;
     background:#0a6ebd;
@@ -233,51 +245,59 @@
     border-radius:10px;
     margin-left:30px;
 }
-.payment-success .message{
+.payment .message{
     font-size: 1rem;
 }
 
-.payment-success .message p{
+.payment .message p{
     line-height: 5px !important;
 }
 
-.payment-success .message .alert{
+.payment .message .alert{
     border-radius:10px;
     background: #353535;
     color:white;
     margin-top:20px
 }
+
+.payment .btn-back{
+    border: none;
+    background: #4f9ca2;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media (max-width: 425px){
-    .payment-success{
+    .payment{
         padding-left:0 !important;
         padding-right:0 !important;
     }
-    .payment-success .token{
-        margin-top: 20px;
+    .payment .token{
+        margin-top: auto;
+        margin-bottom: auto;
     }
-    .payment-success .icon-container{
+    .payment .icon-container{
         width:50px;
         height:50px;
     }
-    .payment-success .icon-container i{
+    .payment .icon-container i{
         top:25%;
         left:25%;
         font-size: 1.5rem;
     }
-    .payment-success .title h3{
+    .payment .title h3{
         font-size: 1.2rem !important;
         line-height:10px
     }
-    .payment-success .title p{
+    .payment .title p{
         font-size: 0.9rem !important;
     }
-    .payment-success .token-container{
+    .payment .message{
 
     }
-    .payment-success .message{
-
-    }
-    .payment-success .message p{
+    .payment .message p{
         line-height: 1.2rem !important;
     }
     .deal-card{
@@ -292,6 +312,12 @@
 
     .deal-card .footer{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1100px){
+    .payment .message p{
+        line-height: 1.3rem !important;
     }
 }
 
