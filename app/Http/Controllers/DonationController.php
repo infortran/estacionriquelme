@@ -56,9 +56,9 @@ class DonationController extends Controller
     }
 
 
-    public function suc2(){
-        return view('admin.donations.success');
-    }
+    //public function suc2(){
+      //  return view('admin.donations.success');
+    //}
 
     public function result(){
         try {
@@ -83,7 +83,7 @@ class DonationController extends Controller
                     $donation->flow_order = $response['flowOrder'];
                     $donation->token = $response['commerceOrder'];
                     $donation->precio = $response['amount'];
-                    //$donation->save();
+                    $donation->save();
 
                     QrCode::size(150)->format('png')->generate($response['commerceOrder'],'images/uploads/qr/'.$response['commerceOrder'].'.png');
 
@@ -99,8 +99,6 @@ class DonationController extends Controller
             }else{
                 return view('admin.donations.failed');
             }
-
-
         } catch (Exception $e) {
             return redirect('/');
         }
