@@ -15,19 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 //Route::get('/admin_er2021', 'HomeController@index');
 Route::get('/', 'HomeController@index');
-Route::get('/admin', 'AdminController@index')->middleware('admin');
-Route::get('/cuenta', 'HomeController@cuenta');
-Route::get('/cuenta/donar', 'DonationController@donar');
-Route::get('/configuracion', 'HomeController@configuracion');
-Route::get('/donations/success', 'DonationController@success');
-Route::get('/donations/failed', 'DonationController@failed');
 Route::get('/carta', 'HomeController@carta');
-
-Route::post('/donations/success2', 'DonationController@success2');
-
 Route::post('/contacto', 'ContactController@send');
 
+Route::get('/cuenta', 'HomeController@cuenta')->middleware('auth');
+Route::get('/cuenta/donar', 'DonationController@donar')->middleware('auth');
+Route::get('/configuracion', 'HomeController@configuracion')->middleware('auth');
+Route::get('/donations/result', 'DonationController@suc2');
+Route::get('/donations/failed', 'DonationController@failed');
+Route::get('/mail', 'DonationController@mail');
 
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin', 'AdminController@index')->middleware('admin');
+
 
 Route::resource('/admin/productos', 'ProductoController')->middleware('admin');
+Route::resource('/admin/categorias', 'CategoriaController')->middleware('admin');

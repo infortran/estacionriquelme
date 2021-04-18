@@ -23,31 +23,38 @@
                                         </div>
                                         <div class="token-container col-md-12 d-flex">
                                             <div class="qr">
-                                                {!! QrCode::size(60)->generate('abcdeFgSkShhJJKSj') !!}
+                                                {!! QrCode::size(60)->generate($commerceOrder ?? '123') !!}
                                             </div>
                                             <div class="token">
-                                                abcdeFgSkShhJJKSj
+                                                {{$commerceOrder ?? ''}}
                                             </div>
                                         </div>
                                         <div class="col-md-12 message">
                                             <div class="alert text-center">
                                                 <p><strong>Te hemos enviado una copia de este código a:</strong></p>
-                                                <p style="font-weight:bolder"><strong>freddy.perez.trabajos@gmail.com</strong></p>
+                                                <p style="font-weight:bolder"><strong>{{$payer ?? ''}}</strong></p>
                                                 <p>como comprobante de tu donación</p>
-                                                <small>Guarda este comprobante para cobrar tu 2x1 en piscolas</small>
+                                                <small>Con este comprobante podrás cobrar tu 2x1 en piscolas</small>
                                             </div>
                                             <div class="alert">
                                                 <strong>Nombre: </strong>Freddy Perez
                                             </div>
                                             <div class="d-flex">
                                                 <div class="alert" style="flex:1;margin-right:5px;margin-top:0 !important; margin-bottom: auto">
-                                                    <strong>Rut: </strong><br>16785738-8
+                                                    <strong>Rut: </strong><br>{{$optional['rut'] ?? ''}}
                                                 </div>
                                                 <div class="alert" style="flex:1;margin-left:5px;margin-top:0 !important; margin-bottom: auto">
-                                                    <strong>Fecha: </strong><br>13/04/2021
+                                                    @isset($requestDate)
+                                                    <strong>Fecha: </strong><br>{{date('d/m/Y', strtotime($requestDate))}}
+                                                        @endif
                                                 </div>
                                             </div>
 
+                                        </div>
+                                        <div class="col-md-12 mt-5 text-center">
+                                            <a href="{{url('/cuenta')}}" class="btn btn-primary">
+                                                <i class="fa fa-user-circle"></i>
+                                                Volver a tu cuenta</a>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>

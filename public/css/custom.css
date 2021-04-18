@@ -145,41 +145,90 @@
     }
 }
 
-.title-deal-card{
+.deal-card .title-cupon{
     font-size: 1rem;
     margin:0 auto;
 }
 
 .token-deal-card{
-    width: 50%;
-    background: #f0f3c8;
-    padding: 5px 0;
-    border-radius: 5px;
-    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    background:linear-gradient(50deg, #0a6ebd, #0a4386);
+    color:white;
+    text-shadow:2px 2px rgba(0,0,0,.6);
+    padding:10px 20px;
+    border-radius:10px;
+    margin-left:20px;
 }
 
 .deal-card .status{
     display: inline-block;
     padding: 0 5px;
-    background: #46901a;
+
     color: #fff;
     line-height: 18px;
     border-radius: 50px;
     font-weight: 500;
 }
 
+.deal-card .status.valid{
+    background: #46901a;
+}
+.deal-card .status.error{
+    background: #ae1213;
+}
+
 .deal-card{
     margin-bottom: 30px;
     margin-top: 0;
+    padding:10px 20px;
+    border: 2px solid #b18a4f;
 }
 .deal-card h3{
     margin:0 auto;
+    font-size: 1.3rem;
+}
+.deal-card .deal-card-header{
+    text-align: center;
+}
+.deal-card .number-deal-card{
+    color:#802e2a;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.deal-card .deal-card-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(min-width:426px){
+    .deal-card .flow-order{
+        margin-right:20px;
+        flex:0.2;
+    }
+    .deal-card .cupon-info{
+        margin-left:20px
+    }
+}
+
+@media(min-width:767px) and (max-width:1024px){
+    .deal-card .flow-order .title-order{
+        font-size: 0.6rem;
+    }
 }
 
 .price-deal-card{
-    font-weight: lighter;
+    padding-bottom: 2px;
+    background: -webkit-linear-gradient(360deg,#802e2a, #b18a4f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    letter-spacing: -0.4px;
     font-size: 1.8rem;
-    font-family: sans-serif;
+    font-family: system-ui, sans-serif;
 }
 
 .price-deal-card.desktop{
@@ -300,7 +349,7 @@
     .payment .message p{
         line-height: 1.2rem !important;
     }
-    .deal-card{
+    .deal-card .deal-card-body{
         flex-direction: column !important;
     }
     .deal-card img{
@@ -312,6 +361,10 @@
 
     .deal-card .footer{
         margin-left: 0;
+    }
+
+    .deal-card .title-cupon{
+        margin-top:1rem;
     }
 }
 

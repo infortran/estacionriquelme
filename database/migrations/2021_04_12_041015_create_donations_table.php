@@ -16,6 +16,7 @@ class CreateDonationsTable extends Migration
         Schema::create('donations', function (Blueprint $table) {
             $table->id();
             $table->integer('user_id')->unsigned();
+            $table->string('flow_order');
             $table->string('token');
             $table->integer('precio');
             $table->boolean('pagado')->default(false);

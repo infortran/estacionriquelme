@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categoria;
+use App\Models\Donation;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -28,7 +29,7 @@ class HomeController extends Controller
             if(Auth::user()->role == 'admin'){
                 return redirect('/admin');
             }
-            return view('admin.home.index');
+            return view('admin.home.index', ['cupones' => Auth::user()->donations]);
         }
         return redirect('/login');
     }

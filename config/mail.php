@@ -70,6 +70,9 @@ return [
         'array' => [
             'transport' => 'array',
         ],
+        'mandrill' => [
+            'transport' => 'mandrill',
+        ],
     ],
 
     /*

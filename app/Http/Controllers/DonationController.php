@@ -3,12 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Flow;
+use App\Mail\DonationMail;
 use App\Models\Donation;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Str;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class DonationController extends Controller
 {
@@ -20,9 +24,10 @@ class DonationController extends Controller
 
     public function donar(){
         $token = Str::random(15);
-        Session::put('token_flow', $token);
         $optional = array(
-            "rut" => Auth::user()->rut
+            "rut" => Auth::user()->rut,
+            "nombre" => Auth::user()->name,
+            "user_id" => Auth::user()->id
         );
         $optional = json_encode($optional);
         $params = array(
@@ -32,8 +37,8 @@ class DonationController extends Controller
             "amount" => 3000,
             "email" => Auth::user()->email,
             "paymentMethod" => 9,
-            "urlConfirmation" => env('APP_URL').'/donations/success',
-            "urlReturn" => env('APP_URL').'/donations/success2',
+            "urlConfirmation" => env('APP_URL').'/donations/result',
+            "urlReturn" => env('APP_URL').'/donations/result',
             "optional" => $optional
         );
         $serviceName = 'payment/create';
@@ -50,34 +55,12 @@ class DonationController extends Controller
         }
     }
 
-    public function success(){
-        /*try {
-            //Recibe el token enviado por Flow
-            if(!isset($_POST["token"])) {
-                throw new Exception("No se recibio el token", 1);
-            }
-            $token = filter_input(INPUT_POST, 'token');
-            $params = array(
-                "token" => $token
-            );
-            //Indica el servicio a utilizar
-            $serviceName = "payment/getStatus";
-            $flow = new Flow();
-            $response = $flow->send($serviceName, $params, "GET");
 
-            print_r($response);
-
-        } catch (Exception $e) {
-            echo "Error: " . $e->getCode() . " - " . $e->getMessage();
-        }*/
-        return view ('admin.donations.success');
+    public function suc2(){
+        return view('admin.donations.success');
     }
 
-    public function failed(){
-        return view('admin.donations.failed');
-    }
-
-    public function success2(Request $request){
+    public function result(){
         try {
             //Recibe el token enviado por Flow
             if(!isset($_POST["token"])) {
@@ -91,17 +74,58 @@ class DonationController extends Controller
             $serviceName = "payment/getStatus";
             $flow = new Flow();
             $response = $flow->send($serviceName, $params, "GET");
+            if($response['status'] === 2){
+                $oldDonation = Donation::where('token', $response['commerceOrder'])->first();
+                //dd(!$oldDonation);
+                if(!$oldDonation){
+                    $donation = new Donation();
+                    $donation->user_id = $response['optional']['user_id'];
+                    $donation->flow_order = $response['flowOrder'];
+                    $donation->token = $response['commerceOrder'];
+                    $donation->precio = $response['amount'];
+                    //$donation->save();
 
-            print_r($response);
+                    QrCode::size(150)->format('png')->generate($response['commerceOrder'],'images/uploads/qr/'.$response['commerceOrder'].'.png');
+
+                    $mailData = [
+                        'response'=> $response,
+                    ];
+
+                    Mail::to($response['payer'])->send(new DonationMail($mailData, $response['payer']));
+
+                    return view('admin.donations.success',$response);
+                }
+                return redirect('/cuenta');
+            }else{
+                return view('admin.donations.failed');
+            }
+
 
         } catch (Exception $e) {
-            echo "Error: " . $e->getCode() . " - " . $e->getMessage();
+            return redirect('/');
         }
     }
 
     public function create()
     {
         //
+    }
+
+    public function mail(){
+        $response = [
+            'optional' => ['rut' => '16000000-1', 'user_id' => 1, 'nombre' => 'chavah'],
+            'flowOrder' => 123456,
+            'commerceOrder' => 'P5n0WFuajM0B89g',
+            'amount' => 3000,
+            'requestDate' => '01/01/2021',
+            'payer'=>'freddy.perez.trabajos@gmail.com'
+        ];
+
+        $emailData = [
+            'response' => $response
+        ];
+        Mail::to($response['payer'])->send(new DonationMail( $emailData, $response['payer']));
+        return view('mail.mail-donation', ['data'=>$emailData]);
     }
 
 

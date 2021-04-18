@@ -15462,6 +15462,11 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 .sidebar[data-color="purple"] li.active>a {
   background: linear-gradient(to right, #bc9b47, #ffde67);
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(176, 168, 60, 0.4);
+  color:#000000 !important;
+}
+
+.sidebar[data-color="purple"] li.active>a>i{
+  color:#000000 !important;
 }
 
 .sidebar[data-color="azure"] li.active>a {

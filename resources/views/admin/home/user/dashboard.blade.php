@@ -8,30 +8,49 @@
         </div>
         <div class="col-md-12 alert mt-4 d-flex align-items-center" style="justify-content: space-around; flex-wrap: wrap">
             <div class="text text-center text-donar">El 100% de los fondos será donado al sueldo de nuestros colaboradores.</div>
-            <!--a href="{{url('/cuenta/donar')}}" >
+            <a href="{{url('/cuenta/donar')}}" >
                 <img src='https://www.flow.cl/img/botones/btn-donar-celeste.png'>
-            </a-->
+            </a>
         </div>
-        <div class="col-md-12 card deal-card py-4 d-flex" style="flex-direction: row; width: 100%">
-            <div class="text-center">
-                <!--img src="https://via.placeholder.com/120" alt=""-->
-                {!! QrCode::size(120)->generate('GHFIUERFGUAERHJ') !!}
-            </div>
 
-            <div class="d-flex align-items-center flex-column w-100">
-                <h3>Cupon de pago</h3>
-                <div class="title-deal-card">
-                    <strong>Promocion:</strong>Dona una piscola.
+        @foreach($cupones as $cupon)
+        <div class="col-md-12 card deal-card">
+            <div class="deal-card-header">
+                <h3>Cupón de donación</h3>
+            </div>
+            <hr>
+            <div class="deal-card-body">
+                <div class="flow-order d-flex align-items-center justify-content-center flex-column">
+                    <div class="title-order">Flow Nº :</div>
+                    <div class="number-deal-card">{{$cupon->flow_order}}</div>
+                </div>
+                <div class="text-center d-flex align-items-center justify-content-center">
+                    <!--img src="https://via.placeholder.com/120" alt=""-->
+                    {!! QrCode::size(80)->generate($cupon->token) !!}
+                    <div class="token-deal-card">{{$cupon->token}}</div>
                 </div>
 
+                <div class="cupon-info d-flex align-items-center flex-column justify-content-center text-center">
+                    <div class="title-cupon">
+                        <strong>Promocion:</strong>Dona una piscola.
+                    </div>
+                    <div class="fecha-cupon">
+                        <strong>Fecha: </strong>{{$cupon->created_at->format('d/m/Y')}}
+                    </div>
+                </div>
+                <div class="footer d-flex flex-column align-items-center text-center">
+                    @if($cupon->pagado)
+                        <div class="status error mb-1">Cobrado</div>
+                        @else
+                        <div class="status valid mb-1">Valido</div>
+                        @endif
 
-                <div class="token-deal-card">GHFIUERFGUAERHJ</div>
+                    <div class="price-deal-card">$ {{$cupon->precio}}</div>
+                </div>
             </div>
-            <div class="footer d-flex flex-column align-items-center mt-2 text-center">
-                <div class="status mb-1">Valido</div>
-                <div class="price-deal-card">$3000</div>
-            </div>
-            </div>
+
+
         </div>
+        @endforeach
     </div>
 </div>
