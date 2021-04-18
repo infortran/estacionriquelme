@@ -11,16 +11,16 @@ class DonationMail extends Mailable
 {
     use Queueable, SerializesModels;
     public $data;
-    public $email;
+    public $subject;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data, $email)
+    public function __construct($data, $subject)
     {
         $this->data = $data;
-        $this->email = $email;
+        $this->subject = $subject;
     }
 
     /**
@@ -30,7 +30,7 @@ class DonationMail extends Mailable
      */
     public function build()
     {
-        return $this->from('contacto@estacionriquelme.cl')->subject($this->email)->
+        return $this->from('contacto@estacionriquelme.cl')->subject($this->subject)->
             view('mail.mail-donation')->with('data',$this->data);
     }
 }

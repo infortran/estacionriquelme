@@ -9,7 +9,7 @@ class Flow{
 
     public function __construct()
     {
-        if(env('APP_ENV') === 'production'){
+        if(env('APP_ENV') === 'productio'){
             $this->url = env('FLOW_URL_PRODUCCION');
             $this->apiKey = env('FLOW_API_KEY');
             $this->secretKey = env('FLOW_SECRET_KEY');

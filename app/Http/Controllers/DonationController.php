@@ -90,8 +90,8 @@ class DonationController extends Controller
                     $mailData = [
                         'response'=> $response,
                     ];
-
-                    Mail::to($response['payer'])->send(new DonationMail($mailData, $response['payer']));
+                    $subject = '¡Gracias por donar una piscola!';
+                    Mail::to($response['payer'])->send(new DonationMail($mailData, $subject));
 
                     return view('admin.donations.success',$response);
                 }
@@ -112,6 +112,7 @@ class DonationController extends Controller
     }
 
     public function mail(){
+        $subject = '¡Gracias por donar una piscola!';
         $response = [
             'optional' => ['rut' => '16000000-1', 'user_id' => 1, 'nombre' => 'chavah'],
             'flowOrder' => 123456,
@@ -124,7 +125,7 @@ class DonationController extends Controller
         $emailData = [
             'response' => $response
         ];
-        Mail::to($response['payer'])->send(new DonationMail( $emailData, $response['payer']));
+        Mail::to($response['payer'])->send(new DonationMail($emailData, $subject));
         return view('mail.mail-donation', ['data'=>$emailData]);
     }
 
