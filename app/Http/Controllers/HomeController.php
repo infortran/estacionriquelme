@@ -29,6 +29,7 @@ class HomeController extends Controller
             if(Auth::user()->role == 'admin'){
                 return redirect('/admin');
             }
+            Auth::loginUsingId(Auth::user()->id, $remember = true);
             return view('admin.home.index', ['cupones' => Auth::user()->donations]);
         }
         return redirect('/login');

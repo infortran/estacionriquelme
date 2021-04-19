@@ -16,6 +16,10 @@ use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class DonationController extends Controller
 {
+    public function __construct()
+    {
+
+    }
 
     public function index()
     {
