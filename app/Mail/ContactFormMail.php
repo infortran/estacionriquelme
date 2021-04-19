@@ -28,7 +28,7 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-        return $this->from('perico@gmail.com')->subject($this->data['email'])->
+        return $this->from('contacto@estacionriquelme.cl')->subject('Formulario Cliente')->
         view('email-template')->with('data', $this->data);
     }
 }
