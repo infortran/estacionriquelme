@@ -213,7 +213,7 @@
                 @enderror
             </div>
 
-            <div class="form-check" style="display:none">
+            <div class="form-check">
                 <input type="checkbox" name="remember" id="remember"  checked>
                 <label for="remember">
                     {{ __('Recuerdame') }}
