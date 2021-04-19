@@ -100,8 +100,8 @@ class DonationController extends Controller
                 return view('admin.donations.failed');
             }
         } catch (Exception $e) {
-            echo $e->getMessage();
-            //return redirect('/');
+            //echo $e->getMessage();
+            return redirect('/');
         }
     }
 

@@ -66,7 +66,7 @@
             border-width: 1px 0 0 1px;
             outline: none;
         }
-        form button{
+        form button, form a{
             background: #222246;
             color: #ffffff;
             border-color: #5459a7;
@@ -195,14 +195,14 @@
                 </div>
 
                 <div class="form-check">
-                    <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                    <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }} checked>
                     <label for="remember">
                         {{ __('Recuerdame') }}
                     </label>
                 </div>
                 <button type="submit">Ingresar</button>
-                <a href="/register">
-                    {{ __('Usuario nuevo? Registrate!') }}
+                <a href="/register" class="btn btn-primary">
+                    Registrate!
                 </a>
                 @if (Route::has('password.request'))
                     <a href="{{ route('password.request') }}">
