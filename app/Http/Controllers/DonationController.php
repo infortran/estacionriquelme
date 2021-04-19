@@ -79,9 +79,9 @@ class DonationController extends Controller
             $flow = new Flow();
             $response = $flow->send($serviceName, $params, "GET");
             if($response['status'] === 2){
-                $oldDonation = Donation::where('token', $response['commerceOrder'])->first();
-                dd($oldDonation);
-                if(!$oldDonation){
+                //$oldDonation = Donation::where('token', $response['commerceOrder'])->first();
+                //dd($oldDonation);
+                //if(!$oldDonation){
                     $donation = new Donation();
                     $donation->user_id = $response['optional']['user_id'];
                     $donation->flow_order = $response['flowOrder'];
@@ -98,9 +98,9 @@ class DonationController extends Controller
                     Mail::to($response['payer'])->send(new DonationMail($mailData, $subject));
 
                     return view('admin.donations.success',$response);
-                }
-                dd('cuenta');
-                return redirect('/cuenta');
+               // }
+                //dd('cuenta');
+                //return redirect('/cuenta');
             }else{
                 return view('admin.donations.failed');
             }
