@@ -66,31 +66,32 @@
             border-width: 1px 0 0 1px;
             outline: none;
         }
-        form button, form a{
-            background: #222246;
+        form button{
+            background: linear-gradient(to left, #d2d188, #7d7c4d);
             color: #ffffff;
-            border-color: #5459a7;
-            padding: 8px 20px;
-            border-radius: 5px;
+            border:none;
+            padding: 15px 30px;
+            border-radius: 25px;
             margin-top: 10px;
+            font-size: 15px;
             cursor: pointer;
-            transition: all ease-in-out .1s;
         }
         form button:hover{
-            background: #33338c;
+            background: linear-gradient(to left, #81661a, #7d7c4d);
         }
 
         form a{
-            text-decoration: none;
+            text-decoration:none;
+            font-weight:bold;
             font-family: sans-serif;
-            margin-top: 10px;
+            margin-top: 20px;
             font-size: 15px;
-            color: #5459a7;
-            transition: all ease-in-out .1s;
+            color: #c9c9c9;
+            transition: all ease .5s;
         }
 
         form a:hover{
-            color: #5b5bdf;
+            color: #ffffff;
             text-decoration: underline;
         }
 
@@ -201,14 +202,14 @@
                     </label>
                 </div>
                 <button type="submit">Ingresar</button>
-                <a href="/register" class="btn btn-primary">
-                    Registrate!
+                <a href="{{url('/register')}}" style="text-align: center">
+                    Aun no tienes una cuenta?<br> Registrate
                 </a>
-                @if (Route::has('password.request'))
+                {{--@if (Route::has('password.request'))
                     <a href="{{ route('password.request') }}">
                         {{ __('Olvido su contraseña?') }}
                     </a>
-                @endif
+                @endif--}}
             </form>
 
         </div>

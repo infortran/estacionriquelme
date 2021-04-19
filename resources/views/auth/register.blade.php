@@ -12,7 +12,7 @@
 
     <style>
         body{
-            background: #181818;
+            background: #1e1e1e;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -68,32 +68,35 @@
             outline: none;
         }
         form button{
-            background: #222246;
+            background: linear-gradient(to left, #d2d188, #7d7c4d);
             color: #ffffff;
-            border-color: #5459a7;
-            padding: 8px 20px;
-            border-radius: 5px;
-            margin-top: 10px;
-            cursor: pointer;
-            transition: all ease-in-out .1s;
-        }
-        form button:hover{
-            background: #33338c;
-        }
-
-        form a{
-            text-decoration: none;
-            font-family: sans-serif;
+            border:none;
+            padding: 15px 30px;
+            border-radius: 25px;
             margin-top: 10px;
             font-size: 15px;
-            color: #5459a7;
+            cursor: pointer;
+        }
+        form button:hover{
+            background: linear-gradient(to left, #81661a, #7d7c4d);
+        }
+
+
+        form a{
+            font-family: sans-serif;
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #c9c9c9;
             transition: all ease-in-out .1s;
         }
 
         form a:hover{
-            color: #5b5bdf;
+            color: #ffffff;
             text-decoration: underline;
         }
+
 
         .form-check{
             display: flex;
@@ -177,7 +180,7 @@
 <img src="{{ asset('images/navbar_logo.png') }}" alt="">
 <div class="card">
     <div class="card-header">
-        <h1>Registrate</h1>
+        <h1>Regístrate</h1>
     </div>
     <div class="card-body">
         <form method="POST" action="{{ route('register') }}">
@@ -213,18 +216,18 @@
                 @enderror
             </div>
 
-            <div class="form-check">
+            {{--<div class="form-check">
                 <input type="checkbox" name="remember" id="remember"  checked>
                 <label for="remember">
                     {{ __('Recuerdame') }}
                 </label>
-            </div>
+            </div>--}}
             <div class="g-recaptcha" data-sitekey="{{env('PUBLIC_KEY_RECAPTCHA')}}"></div>
             @error('g-recaptcha-response')
             <strong class="error-message">Necesita validar el ReCaptcha</strong>
             @enderror
-            <button type="submit">Ingresar</button>
-
+            <button type="submit">Crear cuenta</button>
+            <a href="{{url('/login')}}">Ya tienes una cuenta!</a>
         </form>
 
     </div>
