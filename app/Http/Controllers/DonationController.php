@@ -41,7 +41,7 @@ class DonationController extends Controller
             "amount" => 3000,
             "email" => Auth::user()->email,
             "paymentMethod" => 9,
-            "urlConfirmation" => env('APP_URL').'/donations/result',
+            "urlConfirmation" => env('APP_URL').'/payment/approved',
             "urlReturn" => env('APP_URL').'/donations/result',
             "optional" => $optional
         );
@@ -64,6 +64,48 @@ class DonationController extends Controller
       //  return view('admin.donations.success');
     //}
 
+    public function paymentApproved(){
+        try {
+            //Recibe el token enviado por Flow
+            if(!isset($_POST["token"])) {
+                throw new Exception("No se recibio el token", 1);
+            }
+            $token = filter_input(INPUT_POST, 'token');
+            $params = array(
+                "token" => $token
+            );
+            //Indica el servicio a utilizar
+            $serviceName = "payment/getStatus";
+            $flow = new Flow();
+            $response = $flow->send($serviceName, $params, "GET");
+            if($response['status'] === 2){
+                $oldDonation = Donation::where('token', $response['commerceOrder'])->first();
+                //dd($oldDonation);
+                if(!$oldDonation){
+                    $donation = new Donation();
+                    $donation->user_id = $response['optional']['user_id'];
+                    $donation->flow_order = $response['flowOrder'];
+                    $donation->token = $response['commerceOrder'];
+                    $donation->precio = $response['amount'];
+                    $donation->save();
+
+                    QrCode::size(150)->format('png')->generate($response['commerceOrder'],'images/uploads/qr/'.$response['commerceOrder'].'.png');
+
+                    $mailData = [
+                        'response'=> $response,
+                    ];
+                    $subject = '¡Gracias por donar una piscola!';
+                    Mail::to($response['payer'])->send(new DonationMail($mailData, $subject));
+                }
+                //dd('cuenta');
+                return redirect('/cuenta');
+            }
+        } catch (Exception $e) {
+            //echo $e->getMessage();
+            return redirect('/');
+        }
+    }
+
     public function result(){
         try {
             //Recibe el token enviado por Flow
@@ -79,28 +121,7 @@ class DonationController extends Controller
             $flow = new Flow();
             $response = $flow->send($serviceName, $params, "GET");
             if($response['status'] === 2){
-                //$oldDonation = Donation::where('token', $response['commerceOrder'])->first();
-                //dd($oldDonation);
-                //if(!$oldDonation){
-                    $donation = new Donation();
-                    $donation->user_id = $response['optional']['user_id'];
-                    $donation->flow_order = $response['flowOrder'];
-                    $donation->token = $response['commerceOrder'];
-                    $donation->precio = $response['amount'];
-                    $donation->save();
-
-                    QrCode::size(150)->format('png')->generate($response['commerceOrder'],'images/uploads/qr/'.$response['commerceOrder'].'.png');
-
-                    $mailData = [
-                        'response'=> $response,
-                    ];
-                    $subject = '¡Gracias por donar una piscola!';
-                    Mail::to($response['payer'])->send(new DonationMail($mailData, $subject));
-
-                    return view('admin.donations.success',$response);
-               // }
-                //dd('cuenta');
-                //return redirect('/cuenta');
+                return view('admin.donations.success',$response);
             }else{
                 return view('admin.donations.failed');
             }

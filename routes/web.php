@@ -21,6 +21,7 @@ Route::post('/contacto', 'ContactController@send');
 Route::get('/cuenta', 'HomeController@cuenta')->middleware('auth');
 Route::get('/cuenta/donar', 'DonationController@donar')->middleware('auth');
 Route::get('/configuracion', 'HomeController@configuracion')->middleware('auth');
+Route::post('/payment/approved', 'DonationController@paymentApproved');
 Route::post('/donations/result', 'DonationController@result');
 Route::get('/donations/failed', 'DonationController@failed');
 //Route::get('/mail', 'DonationController@mail');
