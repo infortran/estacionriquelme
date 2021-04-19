@@ -80,7 +80,7 @@ class DonationController extends Controller
             $response = $flow->send($serviceName, $params, "GET");
             if($response['status'] === 2){
                 $oldDonation = Donation::where('token', $response['commerceOrder'])->first();
-                //dd($oldDonation);
+                dd($oldDonation);
                 if(!$oldDonation){
                     $donation = new Donation();
                     $donation->user_id = $response['optional']['user_id'];
