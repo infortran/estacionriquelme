@@ -31,8 +31,8 @@
                     <div class="block-23 mb-3">
                         <ul>
                             <li><span class="icon icon-map-marker"></span><span class="text">Riquelme 1601, San Felipe, Valparaiso, Chile</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+56 9 6245 4265 </span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Barestacionriquelme@gmail.com</span></a></li>
+                            <li><a href="tel:56962454265"><span class="icon icon-phone"></span><span class="text">+56 9 6245 4265 </span></a></li>
+                            <li><a href="mailto:contacto@estacionriquelme.cl"><span class="icon icon-envelope"></span><span class="text">contacto@estacionriquelme.cl</span></a></li>
                         </ul>
                     </div>
                 </div>
