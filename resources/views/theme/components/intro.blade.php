@@ -6,7 +6,7 @@
                     <div class="col-md-4 d-flex ftco-animate">
                         <div class="icon"><span class="icon-phone"></span></div>
                         <div class="text">
-                            <h3>+56 9 6245 4265</h3>
+                            <h3>+56 9 8411 0593</h3>
                             <p>Whatsapp disponible</p>
                         </div>
                     </div>
